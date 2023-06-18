@@ -1,6 +1,7 @@
 # bulbul
 
-[Figma lin](https://www.figma.com/file/cIykV9L1xGg4cawztGla2S/bulbul?type=design&node-id=0%3A1&t=I9SqQXNfwW7arXaJ-1)
+[Figma link](https://www.figma.com/file/cIykV9L1xGg4cawztGla2S/bulbul?type=design&node-id=0%3A1&t=I9SqQXNfwW7arXaJ-1)
+
 requirements/analysis - TODO
 
 current pending dalykai:
