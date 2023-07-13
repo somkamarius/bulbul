@@ -4,11 +4,9 @@ export const NavBar = () => {
   return (
     <div className="navbar bg-base-100 w-screen drop-shadow absolute inset-x-0 top-0">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">
-          <Link to={"/"}>
-            <span className="font-bold text-gray-800">{"Bulbul"}</span>
-          </Link>
-        </a>
+        <Link to={"/"}>
+          <span className="font-bold text-gray-800">{"Bulbul"}</span>
+        </Link>
       </div>
       <div className="flex-none">
         <button className="btn btn-square btn-ghost">
