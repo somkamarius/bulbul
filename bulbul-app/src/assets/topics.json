@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Tavo laisvalaikis",
+    "level1": [
+      "Kiek laisvalaikio turi?",
+      "Ar tau trūksta laiko savam laisvalaikiui, jei taip, kam konkrečiai?"
+    ],
+    "level2": [
+      "Kaip atrodys tavo diena šiandien po mokyklos?",
+      "Kurią savo laisvalaikio dalį mėgsti labiausiai?"
+    ],
+    "level3": [
+      "Pokalbio metu parekomenduokite viena/s kitai/m po kokią nors laisvalaikio veiklą/vietą (pavyzdžiui, jums patinkantį būrelį, veiklą, internetinį puslapį, podcastą, pasivaikščiojimo mašrutą ar pan.)"
+    ]
+  },
+  {
+    "name": "Muzika",
+    "level1": [
+      "Kokia muzika/muzikos stilius tau patinka?",
+      "Kokia tavo mėgstamiausia grupė/dainininkė/as?",
+      "Ar pastaruoju metu buvai kokiuose nors koncertuose?"
+    ],
+    "level2": [
+      "Ar daug reikšmės tavo gyvenime turi muzika? Kokius jausmus dažniausiai išgyveni klausydama/as muzikos?",
+      "Jei būtum muzika, kokia muzika būtum?"
+    ],
+    "level3": [
+      "Parekomenduokite vienas kitam po kokią nors dainą arba atlikėją. Jei turite ausinukus, galite drauge pasiklausyti išsirinktą dainą."
+    ]
+  }
+]
