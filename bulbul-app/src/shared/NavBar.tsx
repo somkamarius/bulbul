@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 export const NavBar = () => {
   return (
-    <div className="navbar bg-base-100 w-screen drop-shadow absolute inset-x-0 top-0">
+    <div className="navbar bg-base-100 w-screen drop-shadow absolute inset-x-0 top-0 z-10">
       <div className="flex-1">
         <Link to={"/"}>
-          <span className="font-bold text-gray-800">{"Bulbul"}</span>
+          <span className="text-xl ml-5 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">{"Bul bul"}</span>
         </Link>
       </div>
       <div className="flex-none">

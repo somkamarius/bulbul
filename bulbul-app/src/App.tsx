@@ -8,7 +8,6 @@ function App() {
   return (
     <div>
       <NavBar />
-      {/* <ToastContainer /> */}
       <Routes>
         <Route path="/" element={<MainScreen />} />
         <Route path="/mentor" element={<MentorScreen />} />
