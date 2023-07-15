@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useTimer } from "react-timer-hook";
+import bellRing from '../assets/bell.wav'
 
 type Props = {
     durationLevel: number;
@@ -7,7 +8,7 @@ type Props = {
 };
 
 export function Timer({ durationLevel, changeHandler }: Props) {
-    const durationInSec = (60 * 3) + ((Math.max(durationLevel - 1, 0)) * 60 * 2);
+    const durationInSec = (6 * 3) + ((Math.max(durationLevel - 1, 0)) * 6 * 2);
     const expiryTimestamp = new Date();
     expiryTimestamp.setSeconds(new Date().getSeconds() + durationInSec);
 
@@ -26,7 +27,9 @@ export function Timer({ durationLevel, changeHandler }: Props) {
 
     useEffect(() => {
         if (minutes === 0 && seconds === 0) {
-            changeHandler(true)
+            changeHandler(true);
+            const audio = new Audio(bellRing);
+            audio.play()
         }
         else changeHandler(false)
     }, [isRunning])
