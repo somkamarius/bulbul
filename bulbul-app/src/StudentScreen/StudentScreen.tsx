@@ -47,7 +47,16 @@ export const StudentScreen = () => {
                         }}
                     />
                 </div>
-                <div className="mx-auto max-w-2xl pt-12 pb-24 sm:pt-12 sm:pb-32 lg:pt-16 lg:pb-48">
+
+                <div className="mx-auto max-w-2xl pt-6 pb-24 sm:pt-10 sm:pb-32 lg:pt-12 lg:pb-48">
+                    {/* <button className='ml-0' onClick={() => navigate('/')}>
+                        <div className='flex flex-row '>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="mt-2 mr-1 w-4 h-4">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                            </svg>
+                            <p className='text-sm'>Grįžti atgal</p>
+                        </div>
+                    </button> */}
 
                     <div className="flex items-center justify-center italic">
                         <h2>Klasės pasirinkimas: </h2>
@@ -112,18 +121,6 @@ export const StudentScreen = () => {
                             </div>
                         </div>
                     }
-                </div>
-                <div
-                    className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-                    aria-hidden="true"
-                >
-                    <div
-                        className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-                        style={{
-                            clipPath:
-                                'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-                        }}
-                    />
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@ type Props = {
 };
 
 export function Timer({ durationLevel, changeHandler }: Props) {
-    const durationInSec = (6 * 3) + ((Math.max(durationLevel - 1, 0)) * 6 * 2);
+    const durationInSec = (60 * 3) + ((Math.max(durationLevel - 1, 0)) * 60 * 2);
     const expiryTimestamp = new Date();
     expiryTimestamp.setSeconds(new Date().getSeconds() + durationInSec);
 
