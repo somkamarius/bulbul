@@ -6,25 +6,13 @@ export function MentorScreen() {
     const [isFinished, setIsFinished] = useState(false)
 
     return (
-        <div className="bg-white">
+        <div className="bg-[#73C0FF] text-white">
             <div className="relative isolate px-6 pt-14 lg:px-8">
-                <div
-                    className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                    aria-hidden="true"
-                >
-                    <div
-                        className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-                        style={{
-                            clipPath:
-                                'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-                        }}
-                    />
-                </div>
                 <div className="mx-auto max-w-2xl pt-12 pb-24 sm:pt-12 sm:pb-32 lt:pt-24 lg:pb-48">
                     <div className="text-center">
                         <div className="flex items-center justify-center italic">
                             <h2>Klasės pasirinkimas: </h2>
-                            <select onChange={e => setDurationLevel(+e.target.value)} className="select select-bordered ml-8">
+                            <select onChange={e => setDurationLevel(+e.target.value)} className="text-black select select-bordered ml-8">
                                 <option value={0} disabled selected>
                                     pasirink klasę
                                 </option>
@@ -32,7 +20,7 @@ export function MentorScreen() {
                                 <option value={2}> 9-12 kl.</option>
                             </select>
                         </div >
-                        <h1 className="text-center font-semibold text-6xl mt-20 mb-12">
+                        <h1 className="text-center font-bold text-6xl mt-20 mb-12">
                             {isFinished ? "Apskeiskim!" : "Laikas pokalbiui!"}
                         </h1>
                         <Timer durationLevel={durationLevel} changeHandler={setIsFinished} />

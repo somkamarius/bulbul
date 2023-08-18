@@ -5,7 +5,7 @@ export const NavBar = () => {
     <div className="navbar bg-base-100 w-screen drop-shadow absolute inset-x-0 top-0 z-10">
       <div className="flex-1">
         <Link to={"/"}>
-          <span className="text-xl ml-5 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">{"Bul bul"}</span>
+          <span className="text-xl ml-5 font-bold text-transparent bg-clip-text bg-[#73C0FF]">{"Bul bul"}</span>
         </Link>
       </div>
       <div className="flex-none">

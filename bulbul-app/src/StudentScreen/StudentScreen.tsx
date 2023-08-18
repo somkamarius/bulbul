@@ -33,7 +33,7 @@ export const StudentScreen = () => {
     }, [])
 
     return (
-        <div className="bg-white">
+        <div className="bg-[#73C0FF]">
             <div className="relative isolate px-6 pt-14 lg:px-8">
                 <div
                     className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -59,7 +59,7 @@ export const StudentScreen = () => {
                     </button> */}
 
                     <div className="flex items-center justify-center italic">
-                        <h2>Klasės pasirinkimas: </h2>
+                        <h2 className='text-white'>Klasės pasirinkimas: </h2>
                         <select onChange={e => setDurationLevel(+e.target.value)} className="select select-bordered ml-8">
                             <option value={0} disabled selected>
                                 pasirink klasę
@@ -69,13 +69,13 @@ export const StudentScreen = () => {
                         </select>
                     </div >
                     {topic === null ? <div className="text-center">
-                        <h1 className="text-center font-semibold text-3xl md:text-4xl lg:text-6xl mt-20 mb-12">
-                            Pasirinki vieną iš dviejų temų
+                        <h1 className="text-white text-center font-bold text-3xl md:text-4xl lg:text-6xl mt-20 mb-12">
+                            Pasirinki vieną iš dviejų temų!
                         </h1>
                         <div className="flex sm:flex-row flex-col align-items justify-items gap-8 pb-24">
                             <button className="card max-w-sm mx-auto sm:w-fit bg-base-100 shadow-xl hover:opacity-80" onClick={() => setTopic(randomSubjects[0])}>
                                 <div className="card-body">
-                                    <h2 className="card-title">{randomSubjects[0].name}</h2>
+                                    <h2 className="card-title font-semibold">{randomSubjects[0].name}</h2>
                                     <p>{randomSubjects[0].level1[0] + " (trumpas aprašymas)"}</p>
                                 </div>
                                 <figure><img src="https://theperfectroundgolf.com/wp-content/uploads/2022/04/placeholder.png" alt="Shoes" /></figure>
@@ -91,10 +91,10 @@ export const StudentScreen = () => {
                     </div> :
 
                         <div className="text-center">
-                            <h1 className="text-center font-semibold text-3xl md:text-4xl lg:text-6xl mt-12 mb-4">
+                            <h1 className="text-white text-center font-bold text-3xl md:text-4xl lg:text-6xl mt-12 mb-4">
                                 Tavo pokalbio tema:
                             </h1>
-                            <button className='mb-8 rounded-md bg-gray-200 px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-gray-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+                            <button className=' text-white mb-8 rounded-md bg-[#FFCE8E] px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:bg-[#edb66d] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
                                 onClick={() => { setNeedAdditionalQs(false); setTopic(null); randomSubjects = getMultipleRandom(); }}>
                                 Gauti naują temos pasirinkimą
                             </button>
@@ -104,7 +104,7 @@ export const StudentScreen = () => {
                                         <h2 className="card-title text-left text-xl">{topic.name}</h2>
                                         <p className='text-left italic -mt-2 mb-4'>Pasikalbėkite šia tema
                                             su savo pašnekove/u</p>
-                                        {!needAdditionalQs && <button className='rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' onClick={() => setNeedAdditionalQs(true)}>Gauti papildomų klausimų</button>}
+                                        {!needAdditionalQs && <button className='rounded-md bg-[#FFCE8E] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#edb66d] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' onClick={() => setNeedAdditionalQs(true)}>Gauti papildomų klausimų</button>}
                                         {needAdditionalQs &&
                                             <>
                                                 <p className='text-left font-bold'>Papildomi klausimai:</p>
