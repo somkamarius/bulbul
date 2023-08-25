@@ -6,7 +6,7 @@ export function MentorScreen() {
     const [isFinished, setIsFinished] = useState(false)
 
     return (
-        <div className="bg-[#73C0FF] text-white">
+        <div className="bg-[#73C0FF] text-white  min-h-screen">
             <div className="relative isolate px-6 pt-14 lg:px-8">
                 <div className="mx-auto max-w-2xl pt-12 pb-24 sm:pt-12 sm:pb-32 lt:pt-24 lg:pb-48">
                     <div className="text-center">

@@ -27,5 +27,63 @@
     "level3": [
       "Parekomenduokite vienas kitam po kokią nors dainą arba atlikėją. Jei turite ausinukus, galite drauge pasiklausyti išsirinktą dainą."
     ]
+  },
+  {
+    "name": "Filmai/serialai",
+    "level1": [
+      "Koks tavo mėgstamiausias filmas/serialas?",
+      "Kokį paskutinį filmą/serialą matėte?"
+    ],
+    "level2": [
+      "Pagal kokius kriterijus renkiesi, kokį filmą/serialą žiūrėsi?",
+      "Ar yra filmas, kuris padarė tavo gyvenime didesnę įtaką, kurio siužetą ar personažus vis prisimeni."
+    ],
+    "level3": [
+      "Pabandykite atrasti kokį nors filmo ar serialo personažą, kurią/į jums primena jūsų pašnekovas (gali būti išvaizdos panašumas, charakterio bruožai)."
+    ]
+  },
+  {
+    "name": "Maistas",
+    "level1": [
+      "Koks tavo mėgstamiausias maistas/patiekalas/restoranas?",
+      "Ar mėgsti gaminti? Jei taip, ką?",
+      "Kokį keisčiausią maisto produktą esi bandžius/ęs?"
+    ],
+    "level2": [
+      "Ar mėgsti gaminti? Jei taip, kaip manai iš kur ateina šis pomėgis? Jei ne, kaip manai, kokia to priežastis?",
+      "Kaip manai, ar sveikai matiniesi? Pagrįsk savo atsakymą."
+    ],
+    "level3": [
+      "Užsimerkit ir pabandykit prisiminti tą kartą, kada valgėt skaniausią savo gyvenime patiekalą. Kokius pojūčius tada jautėt? Pasidalinkit savo prisiminimais."
+    ]
+  },
+  {
+    "name": "Knygos",
+    "level1": [
+      "Ar tau patinka skaityti knygas? Jei taip, kokias? Jei ne, kodėl?",
+      "Kokią knygą iš vaikystės prisimeni geriausiai?"
+    ],
+    "level2": [
+      "Kokia knyga palikus didžiausią įspūdį? Kodėl?",
+      "Jeigu būtum rašytoja/as, kokią knygą rašytum?"
+    ],
+    "level3": [
+      "Parašyk arba pasakyk vieno sakinio palinkėjimą savo pašnekovui."
+    ]
+  },
+  {
+    "name": "Kelionės",
+    "level1": [
+      "Ar esi buvus/ęs užsienyje? Jei taip, kur labiausiai patiko? Jei ne, kur norėtum nukeliauti?",
+      "Ar esi keliavus/ęs po Lietuvą? Kuri vieta paliko tau įspūdį ir kodėl?"
+    ],
+    "level2": [
+      "Kur svajoji nukeliauti ir kodėl?",
+      "Jei galėtum pasirinkti vieną iš šių kelionių, kurią pasirinktum ir kodėl?<ul><li>1. Žygis kalnuose su palapine einant į tam tikrą tikslą ar kopiant į viršūnę.</li><li>2. Backpack'inimas po Aziją ar Pietų Ameriką neturint aiškaus plano.</li><li>3. Kelionė po Europą su traukiniais pažįstant skirtingus miestus, kultūrą.</li><li>4. Kelionė su dviračiu aplink Lietuvą.</li><li>5. Kelionė buriniu laivu per Atlantą.</li></ul>",
+      "Kas būtų tavo kelionės partneris/iai?<ul><li>1. Draugai</li><li>2. Norėčiau turėti tokią kelionę vienas/a</li><li>3. Šeima</li><li>4. Kiti bendraminčiai, nebūtinai pažįstami ar draugai</li></ul>"
+    ],
+    "level3": [
+      "Paprašykite pašnekovo užsimerkti ir įsivaizduoti kelionę apie kurią pasirinkote pasakoti.<br/><i>Galite pradėti, pavyzdžiui,<br/>“Įsivaizduok, kad stovi aplink snieguotas kalnų viršūnes, o prieš tave didžiulis kalnas nuo kurio tuoj tuoj pasileisi…”</i>"
+    ]
   }
 ]
