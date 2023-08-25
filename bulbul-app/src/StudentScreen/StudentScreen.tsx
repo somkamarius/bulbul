@@ -38,9 +38,9 @@ export const StudentScreen = () => {
     }, [needsChange])
 
     if (randomSubjects.length < 2 || !imgUrl1 || !imgUrl2) {
-        return (<>
-            {imgUrl1?.href}
-        </>)
+        return (<div className="bg-[#73C0FF] min-h-screen flex justify-center items-center ">
+            <span className="loading loading-spinner loading-lg "></span>
+        </div >)
     }
 
     return (
