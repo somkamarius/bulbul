@@ -16,7 +16,6 @@ export function Timer({ durationLevel, changeHandler }: Props) {
         seconds,
         minutes,
         isRunning,
-        start,
         pause,
         resume,
         restart,
