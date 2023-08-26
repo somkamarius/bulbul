@@ -27,6 +27,7 @@ export const StudentScreen = () => {
     const [needsChange, setNeedsChange] = useState(false);
     const [imgUrl1, setImageUrl1] = useState<URL | null>(null);
     const [imgUrl2, setImageUrl2] = useState<URL | null>(null);
+    const [majorImg, setMajorImg] = useState<URL | null>(null);
 
     const [loaded1, setLoaded1] = useState(false);
     const [loaded2, setLoaded2] = useState(false);
@@ -79,24 +80,22 @@ export const StudentScreen = () => {
 
 
                         {durationLevel > 0 ? <div className="flex sm:flex-row flex-col align-items justify-items gap-8 pb-24">
-                            <button className="card max-w-sm mx-auto sm:w-fit bg-base-100 shadow-xl hover:opacity-80" onClick={() => setTopic(randomSubjects[0])}>
+                            <button className="card max-w-sm mx-auto sm:w-fit bg-base-100 shadow-xl hover:opacity-80" onClick={() => { setTopic(randomSubjects[0]); setMajorImg(imgUrl1) }}>
                                 <div className="card-body">
                                     <h2 className="card-title font-semibold mx-auto">{randomSubjects[0].name}</h2>
-                                    {/* <p>{randomSubjects[0].level1[0]}</p> */}
                                 </div>
                                 <figure>
-                                    {!loaded1 ? <div className="w-[320px] h-[265px] flex justify-center items-center ">
+                                    {!loaded1 ? <div className="w-[320px] h-[213px] flex justify-center items-center ">
                                         <span className="loading loading-spinner loading-lg "></span>
                                     </div > : <></>}
                                     <img src={imgUrl1?.href} alt={randomSubjects[0].name} onLoad={() => setLoaded1(true)} style={{ display: loaded1 ? 'block' : 'none' }} />
                                 </figure>                            </button>
-                            <button className="card max-w-sm mx-auto sm:w-fit bg-base-100 shadow-xl hover:opacity-80" onClick={() => setTopic(randomSubjects[1])}>
+                            <button className="card max-w-sm mx-auto sm:w-fit bg-base-100 shadow-xl hover:opacity-80" onClick={() => { setTopic(randomSubjects[1]); setMajorImg(imgUrl2) }}>
                                 <div className="card-body">
                                     <h2 className="card-title mx-auto">{randomSubjects[1].name}</h2>
-                                    {/* <p>{randomSubjects[1].level1[0]}</p> */}
                                 </div>
                                 <figure>
-                                    {!loaded2 ? <div className="w-[320px] h-[265px] flex justify-center items-center ">
+                                    {!loaded2 ? <div className="w-[320px] h-[213px] flex justify-center items-center ">
                                         <span className="loading loading-spinner loading-lg "></span>
                                     </div > : <></>}
                                     <img src={imgUrl2?.href} alt={randomSubjects[1].name} onLoad={() => setLoaded2(true)} style={{ display: loaded2 ? 'block' : 'none' }} />
@@ -152,7 +151,7 @@ export const StudentScreen = () => {
                                                     })}
                                                 </ul></>}
                                     </div>
-                                    <figure><img src={imgUrl1?.href.includes(topic.name.replace('/', '')) ? imgUrl1?.href : imgUrl2?.href} alt="Shoes" /></figure>
+                                    <figure><img src={majorImg?.href} alt="Shoes" /></figure>
                                 </div>
                             </div>
                         </div>
