@@ -27,9 +27,14 @@ export const StudentScreen = () => {
     const [needsChange, setNeedsChange] = useState(false);
     const [imgUrl1, setImageUrl1] = useState<URL>();
     const [imgUrl2, setImageUrl2] = useState<URL>();
-    console.log(imgUrl1?.href)
+
+    const [loaded1, setLoaded1] = useState(false);
+    const [loaded2, setLoaded2] = useState(false);
+    console.log(loaded1, loaded2)
 
     useEffect(() => {
+        setLoaded1(false);
+        setLoaded2(false);
         const zoop = shuffle(topics, { shuffleAll: true }).slice(0, 2);
         console.log('zzop', zoop)
         setRandomSubjects(zoop);
@@ -46,7 +51,6 @@ export const StudentScreen = () => {
     return (
         <div className="bg-[#73C0FF] min-h-screen">
             <div className="relative isolate px-6 pt-14 lg:px-8">
-
                 <div className="mx-auto max-w-2xl pt-6 pb-24 sm:pt-10 sm:pb-32 lg:pt-12 lg:pb-48">
                     {/* <button className='ml-0' onClick={() => navigate('/')}>
                         <div className='flex flex-row '>
@@ -57,38 +61,52 @@ export const StudentScreen = () => {
                         </div>
                     </button> */}
 
-                    <div className="flex items-center justify-center italic">
-                        <h2 className='text-white'>Klasės pasirinkimas: </h2>
-                        <select onChange={e => setDurationLevel(+e.target.value)} defaultValue={0} className="select select-bordered ml-8">
-                            <option value={0} disabled>
-                                pasirink klasę
-                            </option>
-                            <option value={1} >5-8 kl.</option>
-                            <option value={2}> 9-10 kl.</option>
-                            <option value={3}> 11-12 kl.</option>
-                        </select>
-                    </div >
                     {topic === null ? <div className="text-center">
-                        <h1 className="text-white text-center font-bold text-3xl md:text-4xl lg:text-6xl mt-20 mb-12">
+                        <h1 className="text-white text-center font-bold text-3xl md:text-4xl lg:text-6xl mt-12 mb-12">
                             Pasirinki vieną iš dviejų temų!
                         </h1>
-                        <div className="flex sm:flex-row flex-col align-items justify-items gap-8 pb-24">
+
+                        <div className="flex items-center justify-center italic mb-12">
+                            <h2 className='text-white'>Klasės pasirinkimas: </h2>
+                            <select onChange={e => setDurationLevel(+e.target.value)} defaultValue={0} className="select select-bordered ml-8">
+                                <option value={0} disabled>
+                                    pasirink klasę
+                                </option>
+                                <option value={1} >5-8 kl.</option>
+                                <option value={2}> 9-10 kl.</option>
+                                <option value={3}> 11-12 kl.</option>
+                            </select>
+                        </div >
+
+
+                        {durationLevel > 0 ? <div className="flex sm:flex-row flex-col align-items justify-items gap-8 pb-24">
                             <button className="card max-w-sm mx-auto sm:w-fit bg-base-100 shadow-xl hover:opacity-80" onClick={() => setTopic(randomSubjects[0])}>
                                 <div className="card-body">
-                                    <h2 className="card-title font-semibold">{randomSubjects[0].name}</h2>
-                                    <p>{randomSubjects[0].level1[0]}</p>
+                                    <h2 className="card-title font-semibold mx-auto">{randomSubjects[0].name}</h2>
+                                    {/* <p>{randomSubjects[0].level1[0]}</p> */}
                                 </div>
-                                <figure><img src={imgUrl1?.href} alt="Shoes" /></figure>
-                            </button>
+                                <figure>
+                                    {!loaded1 ? <div className="w-[320px] h-[265px] flex justify-center items-center ">
+                                        <span className="loading loading-spinner loading-lg "></span>
+                                    </div > : <></>}
+                                    <img src={imgUrl1?.href} alt={randomSubjects[0].name} onLoad={() => setLoaded1(true)} style={{ display: loaded1 ? 'block' : 'none' }} />
+                                </figure>                            </button>
                             <button className="card max-w-sm mx-auto sm:w-fit bg-base-100 shadow-xl hover:opacity-80" onClick={() => setTopic(randomSubjects[1])}>
                                 <div className="card-body">
-                                    <h2 className="card-title">{randomSubjects[1].name}</h2>
-                                    <p>{randomSubjects[1].level1[0]}</p>
+                                    <h2 className="card-title mx-auto">{randomSubjects[1].name}</h2>
+                                    {/* <p>{randomSubjects[1].level1[0]}</p> */}
                                 </div>
-                                <figure><img src={imgUrl2?.href} alt="Shoes" /></figure>
+                                <figure>
+                                    {!loaded2 ? <div className="w-[320px] h-[265px] flex justify-center items-center ">
+                                        <span className="loading loading-spinner loading-lg "></span>
+                                    </div > : <></>}
+                                    <img src={imgUrl2?.href} alt={randomSubjects[1].name} onLoad={() => setLoaded2(true)} style={{ display: loaded2 ? 'block' : 'none' }} />
+                                </figure>
                             </button>
-                        </div>
-                    </div> :
+                        </div> : <></>}
+
+                    </div>
+                        :
 
                         <div className="text-center">
                             <h1 className="text-white text-center font-bold text-3xl md:text-4xl lg:text-6xl mt-12 mb-4">
@@ -104,7 +122,7 @@ export const StudentScreen = () => {
                             <div className="flex sm:flex-row flex-col align-items justify-items gap-8">
                                 <div className="card max-w-sm mx-auto sm:w-fit bg-base-100 shadow-xl">
                                     <div className="card-body">
-                                        <h2 className="card-title text-left text-xl">{topic.name}</h2>
+                                        <h2 className="font-bold card-title text-left text-xl">{topic.name}</h2>
                                         <p className='text-left italic -mt-2 mb-4'>Pasikalbėkite šia tema
                                             su savo pašnekove/u</p>
                                         {!needAdditionalQs && <button className='rounded-md bg-[#73C0FF] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#60aceb] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' onClick={() => setNeedAdditionalQs(true)}>Gauti papildomų klausimų</button>}
@@ -121,7 +139,7 @@ export const StudentScreen = () => {
                                                     })}
                                                 </ul></>}
                                     </div>
-                                    <figure><img src={imgUrl1?.href.includes(topic.name) ? imgUrl1?.href : imgUrl2?.href} alt="Shoes" /></figure>
+                                    <figure><img src={imgUrl1?.href.includes(topic.name.replace('/', '')) ? imgUrl1?.href : imgUrl2?.href} alt="Shoes" /></figure>
                                 </div>
                             </div>
                         </div>
