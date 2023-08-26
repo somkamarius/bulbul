@@ -25,12 +25,11 @@ export const StudentScreen = () => {
     const [topic, setTopic] = useState<Topic | null>(null);
     const [needAdditionalQs, setNeedAdditionalQs] = useState(false);
     const [needsChange, setNeedsChange] = useState(false);
-    const [imgUrl1, setImageUrl1] = useState<URL>();
-    const [imgUrl2, setImageUrl2] = useState<URL>();
+    const [imgUrl1, setImageUrl1] = useState<URL | null>(null);
+    const [imgUrl2, setImageUrl2] = useState<URL | null>(null);
 
     const [loaded1, setLoaded1] = useState(false);
     const [loaded2, setLoaded2] = useState(false);
-    console.log(loaded1, loaded2)
 
     useEffect(() => {
         setLoaded1(false);
@@ -63,12 +62,12 @@ export const StudentScreen = () => {
 
                     {topic === null ? <div className="text-center">
                         <h1 className="text-white text-center font-bold text-3xl md:text-4xl lg:text-6xl mt-12 mb-12">
-                            Pasirinki vieną iš dviejų temų!
+                            {durationLevel > 0 ? 'Pasirinki vieną iš dviejų temų!' : 'Pasirinki savo klasę!'}
                         </h1>
 
                         <div className="flex items-center justify-center italic mb-12">
                             <h2 className='text-white'>Klasės pasirinkimas: </h2>
-                            <select onChange={e => setDurationLevel(+e.target.value)} defaultValue={0} className="select select-bordered ml-8">
+                            <select onChange={e => setDurationLevel(+e.target.value)} defaultValue={durationLevel} className="select select-bordered ml-8">
                                 <option value={0} disabled>
                                     pasirink klasę
                                 </option>
@@ -109,13 +108,27 @@ export const StudentScreen = () => {
                         :
 
                         <div className="text-center">
-                            <h1 className="text-white text-center font-bold text-3xl md:text-4xl lg:text-6xl mt-12 mb-4">
+                            <h1 className="text-white text-center font-bold text-3xl md:text-4xl lg:text-6xl mt-12 mb-8">
                                 Tavo pokalbio tema:
                             </h1>
+                            <div className="flex items-center justify-center italic mb-12">
+                                <h2 className='text-white'>Klasės pasirinkimas: </h2>
+                                <select onChange={e => setDurationLevel(+e.target.value)} defaultValue={durationLevel} className="select select-bordered ml-8">
+                                    <option value={0} disabled>
+                                        pasirink klasę
+                                    </option>
+                                    <option value={1} >5-8 kl.</option>
+                                    <option value={2}> 9-10 kl.</option>
+                                    <option value={3}> 11-12 kl.</option>
+                                </select>
+                            </div >
+
                             <button className=' text-[#73C0FF] mb-8 rounded-md bg-[#FFFFFF] px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:bg-[#f0f3f5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
                                 onClick={() => {
                                     setNeedAdditionalQs(false); setTopic(null);
-                                    setNeedsChange(!needsChange)
+                                    setNeedsChange(!needsChange);
+                                    setImageUrl1(null);
+                                    setImageUrl2(null);
                                 }}>
                                 Gauti naują temos pasirinkimą
                             </button>

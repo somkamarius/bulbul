@@ -12,8 +12,8 @@ export function MentorScreen() {
                     <div className="text-center">
                         <div className="flex items-center justify-center italic">
                             <h2>Klasės pasirinkimas: </h2>
-                            <select onChange={e => setDurationLevel(+e.target.value)} className="text-black select select-bordered ml-8">
-                                <option value={0} disabled selected>
+                            <select defaultValue={durationLevel} onChange={e => setDurationLevel(+e.target.value)} className="text-black select select-bordered ml-8">
+                                <option value={0} disabled>
                                     pasirink klasę
                                 </option>
                                 <option value={1} >5-8 kl.</option>

@@ -28,13 +28,13 @@ export function MainScreen() {
             <div className="mt-10 flex md:flex-row flex-col items-center justify-center gap-6">
               <button
                 onClick={() => navigate('/mentor')}
-                className="rounded-md bg-[#FFFFFF] px-3.5 py-2.5 text-sm font-semibold text-[#73C0FF] shadow-sm hover:bg-[#f0f3f5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-[#FFFFFF] px-3.5 py-2.5 text-lg font-semibold text-[#73C0FF] shadow-sm hover:bg-[#f0f3f5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Noriu moderuoti
               </button>
               <button
                 onClick={() => navigate('/student')}
-                className="rounded-md bg-[#FFFFFF] px-3.5 py-2.5 text-sm font-semibold text-[#73C0FF] shadow-sm hover:bg-[#f0f3f5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                className="rounded-md bg-[#FFFFFF] px-3.5 py-2.5 text-lg font-semibold text-[#73C0FF] shadow-sm hover:bg-[#f0f3f5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Noriu žaisti!
               </button>
             </div>
