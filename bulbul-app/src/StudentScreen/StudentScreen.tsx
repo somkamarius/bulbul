@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import shuffle from 'just-shuffle';
 import topics from '../assets/topics.json';
 import { Topic } from '../shared/types';
+import { Legal } from '../shared';
 
 function getLevel(topic: Topic, level: number) {
     if (level === 1 || level === 0) {
@@ -49,8 +50,9 @@ export const StudentScreen = () => {
     }
 
     return (
-        <div className="bg-[#73C0FF] min-h-screen">
+        <div className="bg-[#73C0FF] min-h-screen pb-4">
             <div className="relative isolate px-6 pt-14 lg:px-8">
+                {/* fixme */}
                 <div className="mx-auto max-w-2xl pt-6 pb-24 sm:pt-10 sm:pb-32 lg:pt-12 lg:pb-48">
                     {/* <button className='ml-0' onClick={() => navigate('/')}>
                         <div className='flex flex-row '>
@@ -137,19 +139,16 @@ export const StudentScreen = () => {
                                         <h2 className="font-bold card-title text-left text-xl">{topic.name}</h2>
                                         <p className='text-left italic -mt-2 mb-4'>Pasikalbėkite šia tema
                                             su savo pašnekove/u</p>
-                                        {!needAdditionalQs && <button className='rounded-md bg-[#73C0FF] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#60aceb] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' onClick={() => setNeedAdditionalQs(true)}>Gauti papildomų klausimų</button>}
-                                        {needAdditionalQs &&
-                                            <>
-                                                <p className='text-left font-bold'>Papildomi klausimai:</p>
-                                                <ul className='text-left list-disc'>
-                                                    {getLevel(topic, durationLevel)?.map((text) => {
-                                                        return (
-                                                            <li className='mb-2'>
+                                        <p className='text-left font-bold'>Papildomi klausimai:</p>
+                                        <ul className='text-left list-disc'>
+                                            {getLevel(topic, durationLevel)?.map((text) => {
+                                                return (
+                                                    <li className='mb-2'>
 
-                                                                <div dangerouslySetInnerHTML={{ __html: text }} /></li>
-                                                        )
-                                                    })}
-                                                </ul></>}
+                                                        <div dangerouslySetInnerHTML={{ __html: text }} /></li>
+                                                )
+                                            })}
+                                        </ul>
                                     </div>
                                     <figure><img src={majorImg?.href} alt="Shoes" /></figure>
                                 </div>
@@ -158,6 +157,7 @@ export const StudentScreen = () => {
                     }
                 </div>
             </div>
+            <Legal />
         </div>
     )
 }

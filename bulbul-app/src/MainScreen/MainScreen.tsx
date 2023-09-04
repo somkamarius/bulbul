@@ -1,12 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import { ExplainerImage } from "../shared";
 import hands from '../shared/img/hands.png'
+import { Legal } from "../shared";
 
 export function MainScreen() {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-[#73C0FF]  min-h-screen">
+    <div className="bg-[#73C0FF] min-h-screen pb-4">
       {/* <div className="z-100 bg-[url('../shared/img/hands.png')]" /> */}
       <img src={hands} className="h-auto py-10 sm:py-0 max-h-[200px] mx-auto" />
       <div className="h-full relative isolate px-6 pt-2 lg:px-8">
@@ -42,6 +43,7 @@ export function MainScreen() {
           </div>
         </div>
       </div>
+      <Legal />
     </div>
   )
 }

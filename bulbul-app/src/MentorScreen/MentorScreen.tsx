@@ -1,30 +1,21 @@
 import { useState } from "react";
-import { Timer } from "../shared";
+import { Legal, Timer } from "../shared";
 
 export function MentorScreen() {
     const [durationLevel, setDurationLevel] = useState<number>(0);
     const [isFinished, setIsFinished] = useState(false)
 
     return (
-        <div className="bg-[#73C0FF] text-white  min-h-screen">
+        <div className="bg-[#73C0FF] text-white  min-h-screen pb-4">
             <div className="relative isolate px-6 pt-14 lg:px-8">
                 <div className="mx-auto max-w-2xl pt-12 pb-24 sm:pt-12 sm:pb-32 lt:pt-24 lg:pb-48">
                     <div className="text-center">
-                        <div className="flex items-center justify-center italic">
-                            <h2>Klasės pasirinkimas: </h2>
-                            <select defaultValue={durationLevel} onChange={e => setDurationLevel(+e.target.value)} className="text-black select select-bordered ml-8">
-                                <option value={0} disabled>
-                                    pasirink klasę
-                                </option>
-                                <option value={1} >5-8 kl.</option>
-                                <option value={2}> 9-12 kl.</option>
-                            </select>
-                        </div >
-                        <h1 className="text-center font-bold text-6xl mt-20 mb-12">
+                        <h1 className="text-center font-bold text-6xl mt-8 mb-12">
+                            {/* fixme */}
                             {isFinished ? "Apskeiskim!" : "Laikas pokalbiui!"}
                         </h1>
                         <Timer durationLevel={durationLevel} changeHandler={setIsFinished} />
-                        <p className="mx-[15%] my-20">
+                        <p className="mx-[15%] my-12">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
                             facilisis purus consectetur mi imperdiet, vel pretium orci efficitur.
                             Aliquam erat volutpat. Maecenas dictum odio iaculis mauris sagittis
@@ -38,11 +29,10 @@ export function MentorScreen() {
                             vitae lectus quis ante tempor facilisis. Fusce vel elit purus. Donec ut
                             tincidunt dui, eu luctus justo.{" "}
                         </p>
-
-
                     </div>
                 </div>
             </div>
+            <Legal />
         </div>
     )
 }
