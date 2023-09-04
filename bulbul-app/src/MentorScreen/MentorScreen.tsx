@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Legal, Timer } from "../shared";
 
 export function MentorScreen() {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [durationLevel, setDurationLevel] = useState<number>(0);
     const [isFinished, setIsFinished] = useState(false)
 

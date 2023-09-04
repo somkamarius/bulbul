@@ -42,7 +42,7 @@ export function Timer({ durationLevel, changeHandler }: Props) {
         }
     }
 
-    useEffect(() => { restart(expiryTimestamp, false) }, [durationLevel])
+    useEffect(() => { restart(expiryTimestamp, false) }, [])
 
     useEffect(() => {
         document.body.addEventListener('Space', (isRunning ? pause : resume));

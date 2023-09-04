@@ -24,7 +24,6 @@ export const StudentScreen = () => {
     const [durationLevel, setDurationLevel] = useState<number>(0);
     const [randomSubjects, setRandomSubjects] = useState<typeof topics>([]);
     const [topic, setTopic] = useState<Topic | null>(null);
-    const [needAdditionalQs, setNeedAdditionalQs] = useState(false);
     const [needsChange, setNeedsChange] = useState(false);
     const [imgUrl1, setImageUrl1] = useState<URL | null>(null);
     const [imgUrl2, setImageUrl2] = useState<URL | null>(null);
@@ -126,7 +125,7 @@ export const StudentScreen = () => {
 
                             <button className=' text-[#73C0FF] mb-8 rounded-md bg-[#FFFFFF] px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:bg-[#f0f3f5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
                                 onClick={() => {
-                                    setNeedAdditionalQs(false); setTopic(null);
+                                    setTopic(null);
                                     setNeedsChange(!needsChange);
                                     setImageUrl1(null);
                                     setImageUrl2(null);
