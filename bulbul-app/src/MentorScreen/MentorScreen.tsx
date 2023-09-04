@@ -3,7 +3,6 @@ import { Legal, Timer } from "../shared";
 
 export function MentorScreen() {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const [durationLevel, setDurationLevel] = useState<number>(0);
     const [isFinished, setIsFinished] = useState(false)
 
     return (
@@ -15,7 +14,7 @@ export function MentorScreen() {
                             {/* fixme */}
                             {isFinished ? "Apskeiskim!" : "Laikas pokalbiui!"}
                         </h1>
-                        <Timer durationLevel={durationLevel} changeHandler={setIsFinished} />
+                        <Timer changeHandler={setIsFinished} />
                         <p className="mx-[15%] my-12">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
                             facilisis purus consectetur mi imperdiet, vel pretium orci efficitur.

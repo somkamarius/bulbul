@@ -3,12 +3,11 @@ import { useTimer } from "react-timer-hook";
 import bellRing from '../assets/bell.wav'
 
 type Props = {
-    durationLevel: number;
     changeHandler: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-export function Timer({ durationLevel, changeHandler }: Props) {
-    const [maxDurationInSec, setMaxDurationInSec] = useState((60 * 3) + ((Math.max(durationLevel - 1, 0)) * 60 * 2));
+export function Timer({ changeHandler }: Props) {
+    const [maxDurationInSec, setMaxDurationInSec] = useState((60 * 3));
     const expiryTimestamp = new Date();
     expiryTimestamp.setSeconds(new Date().getSeconds() + maxDurationInSec);
 
