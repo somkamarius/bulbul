@@ -14,7 +14,7 @@ function getLevel(topic: Topic, level: number) {
     }
 
     if (level === 3) {
-        return topic.level3
+        return topic.level2
     }
 }
 
@@ -25,6 +25,8 @@ export const StudentScreen = () => {
     const [randomSubjects, setRandomSubjects] = useState<typeof topics>([]);
     const [topic, setTopic] = useState<Topic | null>(null);
     const [needsChange, setNeedsChange] = useState(false);
+    const [needAdditionalQs, setNeedAdditionalQs] = useState(false);
+    const [needTasks, setNeedTasks] = useState(false);
     const [imgUrl1, setImageUrl1] = useState<URL | null>(null);
     const [imgUrl2, setImageUrl2] = useState<URL | null>(null);
     const [majorImg, setMajorImg] = useState<URL | null>(null);
@@ -36,7 +38,6 @@ export const StudentScreen = () => {
         setLoaded1(false);
         setLoaded2(false);
         const zoop = shuffle(topics, { shuffleAll: true }).slice(0, 2);
-        console.log('zzop', zoop)
         setRandomSubjects(zoop);
         setImageUrl1(new URL(`../assets/imgs/${zoop[0].name.replace('/', '')}.png`, import.meta.url))
         setImageUrl2(new URL(`../assets/imgs/${zoop[1].name.replace('/', '')}.png`, import.meta.url))
@@ -102,7 +103,7 @@ export const StudentScreen = () => {
                                     <img src={imgUrl2?.href} alt={randomSubjects[1].name} onLoad={() => setLoaded2(true)} style={{ display: loaded2 ? 'block' : 'none' }} />
                                 </figure>
                             </button>
-                        </div> : <></>}
+                        </div> : <div className='h-screen'></div>}
 
                     </div>
                         :
@@ -129,6 +130,8 @@ export const StudentScreen = () => {
                                     setNeedsChange(!needsChange);
                                     setImageUrl1(null);
                                     setImageUrl2(null);
+                                    setNeedAdditionalQs(false);
+                                    setNeedTasks(false);
                                 }}>
                                 Gauti naują temos pasirinkimą
                             </button>
@@ -138,16 +141,30 @@ export const StudentScreen = () => {
                                         <h2 className="font-bold card-title text-left text-xl">{topic.name}</h2>
                                         <p className='text-left italic -mt-2 mb-4'>Pasikalbėkite šia tema
                                             su savo pašnekove/u</p>
-                                        <p className='text-left font-bold'>Papildomi klausimai:</p>
-                                        <ul className='text-left list-disc'>
-                                            {getLevel(topic, durationLevel)?.map((text) => {
-                                                return (
-                                                    <li className='mb-2'>
-
-                                                        <div dangerouslySetInnerHTML={{ __html: text }} /></li>
-                                                )
-                                            })}
-                                        </ul>
+                                        {!needAdditionalQs && <button className='rounded-md bg-[#73C0FF] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#60aceb] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' onClick={() => setNeedAdditionalQs(true)}>Gauti papildomų klausimų</button>}
+                                        {needAdditionalQs &&
+                                            <>
+                                                <p className='text-left font-bold'>Papildomi klausimai:</p>
+                                                <ul className='text-left list-disc'>
+                                                    {getLevel(topic, durationLevel)?.map((text) => {
+                                                        return (
+                                                            <li className='mb-2' key={topic.name}>
+                                                                <div dangerouslySetInnerHTML={{ __html: text }} /></li>
+                                                        )
+                                                    })}
+                                                </ul></>}
+                                        {durationLevel === 3 && topic.level3.length > 0 && needAdditionalQs && !needTasks && <button className='rounded-md bg-[#73C0FF] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#60aceb] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' onClick={() => setNeedTasks(true)}>Gauti papildomą užduotį</button>}
+                                        {durationLevel === 3 && topic.level3.length > 0 && needAdditionalQs && needTasks &&
+                                            <>
+                                                <p className='text-left font-bold'>Papildoma užduotis:</p>
+                                                <ul className='text-left list-disc'>
+                                                    {topic.level3.map((text) => {
+                                                        return (
+                                                            <li className='mb-2' key={text}>
+                                                                <div dangerouslySetInnerHTML={{ __html: text }} /></li>
+                                                        )
+                                                    })}
+                                                </ul></>}
                                     </div>
                                     <figure><img src={majorImg?.href} alt="Shoes" /></figure>
                                 </div>

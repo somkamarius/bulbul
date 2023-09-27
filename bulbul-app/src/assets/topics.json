@@ -368,17 +368,16 @@
   {
     "name": "Ateitis",
     "level1": [
-      "Kaip manai, koks bus gyvenimas po 10/25/50/100 metų?",
-      "Ar manai, kad žmonija eina gera linkme? Kodėl?",
-      "Kaip manai, kokį atradimą būtų galima padaryti, kuris visiškai pakeistų žmonijos eigą?"
+      "Koks/ia norėtum būti ateityje? Kaip save matai: ką dirbant, ką veikiant, su kuo gyvenant ir t.t.",
+      "Kaip manai, koks bus gyvenimas po 10/25/50/100 metų?"
     ],
     "level2": [
+      "Koks/ia norėtum būti ateityje? Kaip save matai: ką dirbant, ką veikiant, su kuo gyvenant ir t.t.",
       "Ar turi kokių nors baimių susijusių su ateitimi? Jei nori, pasidalink apie ką jos.",
-      "Kaip manai ar daugiau tavo ateitis priklauso nuo tavęs ar nuo aplinkybių? Kodėl taip manai?",
-      "Kokios ateities linkėtum sau ir savo artimiesiems?"
+      "Kaip manai ar daugiau tavo ateitis priklauso nuo tavęs ar nuo aplinkybių? Kodėl taip manai?"
     ],
     "level3": [
-      "Užsimerkit ir nusikelkit į savo praeitį (savo ankstyviausius prisiminimus) ir susitikę ten save nuoširdžiai pasakykit sau - vaikui tai, ką galbūt būtumėt norėję tuo metu girdėti dažniau <i>(pavyzdžiui, \"tau pavyks!\", \"tu esi nuostabi/us\", \"myliu tave, kad ir kas nutiktų\", \"visada tikėk savimi\" ir t.t.)</i>"
+      "Užsimerk ir nusikelk į savo praeitį (savo ankstyviausius prisiminimus) ir susitikęs/us ten save nuoširdžiai pasakyk sau-vaikui tai, ką galbūt būtum norėjęs/us tuo metu girdėti dažniau <i>(pavyzdžiui, \"tau pavyks!\", \"tu esi nuostabi/us\", \"myliu tave, kad ir kas nutiktų\", \"visada tikėk savimi\" ir t.t.)</i>"
     ]
   },
   {
@@ -441,6 +440,18 @@
       "Ar esi kada nors tyčiojusis/ęs iš kito žmogaus, o gal buvai stebėtoja/as? Kaip tada jauteisi?",
       "Jeigu būtum atsakinga/as už patyčių prevenciją mokykloje, ką darytum?"
     ],
-    "level3": ["TODO"]
+    "level3": ["Jeigu esi kada nors įskaudinęs/us kokį nors žmogų, žinok, kad niekada nėra vėlu atsiprašyti :)"]
+  },
+  {
+    "name": "Inovacijos",
+    "level1": [
+      "Ar esi sukūręs/us arba atradęs kažką, kas palengvino tavo gyvenimą?",
+      "Kaip manai, kokį atradimą būtų galima padaryti, kuris visiškai pakeistų žmonijos eigą?"
+    ],
+    "level2": [
+      "Ar esi sukūręs/us arba atradęs kažką, kas palengvino tavo gyvenimą?",
+      "Jeigu kurtum pokytį, kurią sritį norėtum pasirinkti (pvz., švietimas, aplinkosauga, sveikatos sistema, inovacijos ir t.t.) ir kodėl? Ką pirmiausia darytum?"
+    ],
+    "level3": []
   }
 ]
