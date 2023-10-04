@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Legal, Timer } from "../shared";
+import { MentorRules } from "./MentorRules";
 
 export function MentorScreen() {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [isFinished, setIsFinished] = useState(false)
+    const [displayRules, setDisplayRules] = useState(false)
 
     return (
         <div className="bg-[#73C0FF] text-white  min-h-screen pb-4">
@@ -15,20 +17,21 @@ export function MentorScreen() {
                             {isFinished ? "Apskeiskim!" : "Laikas pokalbiui!"}
                         </h1>
                         <Timer changeHandler={setIsFinished} />
-                        <p className="mx-[15%] my-12">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-                            facilisis purus consectetur mi imperdiet, vel pretium orci efficitur.
-                            Aliquam erat volutpat. Maecenas dictum odio iaculis mauris sagittis
-                            viverra. Vestibulum ut nulla cursus, porttitor enim quis, vehicula
-                            tortor. Proin rhoncus sagittis mauris pulvinar rutrum. Nulla consequat
-                            eros ut ex vulputate, eget bibendum tellus rhoncus. Etiam cursus
-                            suscipit ante, nec efficitur risus egestas non. Sed ac lacinia tortor.
-                            Vivamus ullamcorper, mi eu tempor iaculis, urna dui venenatis augue, et
-                            aliquet ligula mi sit amet velit. Integer luctus, sapien in pretium
-                            dictum, ante massa vehicula odio, vel consequat tortor sem a ex. Morbi
-                            vitae lectus quis ante tempor facilisis. Fusce vel elit purus. Donec ut
-                            tincidunt dui, eu luctus justo.{" "}
-                        </p>
+                        <button
+                            onClick={() => setDisplayRules(!displayRules)}
+                            className="mx-[15%] mt-12 rounded-md bg-[#FFFFFF] px-3.5 py-2.5 text-lg font-semibold text-[#73C0FF] shadow-sm hover:bg-[#f0f3f5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                        >
+                            <div className="flex ">
+                                Instrukcijos MODERATORIUI
+                                {!displayRules ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 my-auto ml-1.5">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg> : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 my-auto ml-1.5">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                                </svg>
+                                }
+                            </div>
+                        </button>
+                        {displayRules && <MentorRules />}
                     </div>
                 </div>
             </div>
