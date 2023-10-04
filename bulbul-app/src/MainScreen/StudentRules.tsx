@@ -9,7 +9,7 @@ export const StudentRules = () => {
 
         <br /><br />
         Nepamirškit, kad kalbėtis taip pat svarbu kaip ir klausytis 🙂
-        <br />
+        <br /><br />
         <span className="font-bold">SMAGAUS IR TURININGO ŠURMULIO!</span>
     </p >)
 }

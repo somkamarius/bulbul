@@ -12,8 +12,8 @@ export const MentorRules = () => {
         Tuomet pakvieskite dalyvius susėsti poromis (nesvarbu kas su kuo, nes poros keisis) vienas priešais kitą. Jeigu žaidimas žaidžiamas didesnėje grupėje, rekomenduojama susėsti dviem ratais (išoriniu ir vidiniu) arba dviem linijomis viena priešais kitą. Vienas ratas ar linija žaidimo metu lieka toje pačioje vietoje, o kitas ratas ar linija pasikalbėjus pajuda per vieną kėdę į sutartą pusę. Turite nuspręsti kuri linija/ratas liks vietoje, o kuri judės. Praėjus pasirinktam pokalbio laikui, moderatorius sušunka KEIČIAMĖS, LAIKAS ar kitas jūsų sugalvotas burtažodis ir pasikeitus poroms bei pasirinkus naujas temas, žaidimas tęsiasi.
         <br /><br />
         <span className="font-bold">SMAGAUS IR TURININGO ŠURMULIO!</span>
-        <br />
-        <span className="italic">P.S. Jeigu dalyvių skaičius nelyginis, galima pasiūlyti vienam iš dalyvių būtų moderatoriumi ir sekti laiką. Jei tokio žmogaus neatsiranda, prsijunkite prie žaidimo, kad visi turėtų startines poras.</span>
+        <br /><br />
+        <span className="italic">P.S. Jeigu dalyvių skaičius nelyginis, galima pasiūlyti vienam iš dalyvių būti moderatoriumi ir sekti laiką. Jei tokio žmogaus neatsiranda, prsijunkite prie žaidimo, kad visi turėtų startines poras.</span>
 
         <br /><br />
         <button
