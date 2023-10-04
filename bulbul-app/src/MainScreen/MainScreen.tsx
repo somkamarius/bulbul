@@ -43,7 +43,7 @@ export function MainScreen() {
                 Noriu žaisti!
               </button>
             </div>
-            <div className="flex w-full mt-12 place-content-center mr-2">
+            <div className="flex w-full mt-12 place-content-center pr-4">
               <button
                 onClick={() => { setDisplayRulesMentor(!displayRulesMentor); setDisplayRulesStudent(false) }}
                 className={`rounded-md bg-[#FFFFFF] px-3.5 py-2.5 text-lg font-semibold text-[#73C0FF] shadow-sm hover:bg-[#f0f3f5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 ${displayRulesStudent ? 'bg-[#c2e4ff] hover:bg-[#c2e4ff]' : 'bg-white'}`}
