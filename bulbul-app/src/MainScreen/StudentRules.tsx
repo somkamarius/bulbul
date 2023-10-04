@@ -1,5 +1,5 @@
 export const StudentRules = () => {
-    return (<p className="mx-[15 %] my-6 text-white">
+    return (<p className="mx-[15%] my-6 text-white">
 
         Labas! Šiam žaidimui tau reikės kokio nors išmaniojo įrenginio (pvz. telefono) ir bent vieno žmogaus su kuriuo galėtum pasikalbėti. Atsisėskite vienas priešais kitą. Jeigu žaidimas žaidžiamas didesnėje grupėje, rekomenduojama susėste dviem ratais (išoriniu ir vidiniu) arba dviem linijomis viena priešais kitą. Vienas ratas ar linija žaidimo metu lieka toje pačioje vietoje, o kitas ratas ar linija pasikalbėjus pajuda per vieną kėdę į sutartą pusę.
         <br /><br />

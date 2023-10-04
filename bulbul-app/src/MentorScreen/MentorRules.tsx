@@ -26,6 +26,6 @@ export const MentorRules = () => {
         <br /><br />
         <span className="font-bold">SMAGAUS IR TURININGO ŠURMULIO!</span>
         <br />
-        P.S.Jeigu dalyvių skaičius nelyginis, galima pasiūlyti vienam iš dalyvių būtų moderatoriumi ir sekti laiką.Jei tokio žmogaus neatsiranda, prsijunkite prie žaidimo, kad visi turėtų startines poras.
+        <span className="italic">P.S. Jeigu dalyvių skaičius nelyginis, galima pasiūlyti vienam iš dalyvių būtų moderatoriumi ir sekti laiką. Jei tokio žmogaus neatsiranda, prsijunkite prie žaidimo, kad visi turėtų startines poras.</span>
     </p >)
 }
