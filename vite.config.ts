@@ -10,4 +10,8 @@ export default defineConfig({
       "./src/assets/imgs/Muzika.png",
     ],
   },
+  server: {
+    host: true,
+    port: 8000,
+  },
 });
