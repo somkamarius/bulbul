@@ -186,7 +186,7 @@
       "Kokius jausmus tau kelia dirbtinis intelektas?",
       "Kokioje srityje dirbtinis intelektas negalėtų būti panaudotas?"
     ],
-    "level3": ["TODO"]
+    "level3": []
   },
   {
     "name": "Socialinės medijos/influenceriai",
@@ -363,7 +363,7 @@
       "Ar yra buvę, kad pradžioje vertinai žmogų pagal išvaizdą, o geriau susipažinus/ęs supratai, kad tas žmogus visai kitoks?",
       "Ar pati/pats dažnai jautiesi vertinama/s? Kaip dėl to jautiesi?"
     ],
-    "level3": ["TODO"]
+    "level3": []
   },
   {
     "name": "Ateitis",
@@ -393,7 +393,7 @@
       "Kokiame amžiuje (laikmetyje/epochoje) norėtum pagyventi ir kodėl?"
     ],
     "level3": [
-      "Kai turėsi progą, paklausk savo močiutės/senelio arba kito vyresnio amžiaus žmogaus, kaip jiems atrodo, koks yra svarbiausias dalykas gyvenime? Jeigu jie galėtų kažką pakeisti savo gyvenime, ar keistų ir jei taip, kas tai būtų?"
+      "Kai turėsi progą, paklausk savo močiutės/senelio arba kito vyresnio amžiaus žmogaus, kaip jiems atrodo, koks yra svarbiausias dalykas gyvenime? Jeigu jie galėtų kažką pakeisti savo gyvenime, ar keistų ir jei taip, kas tai būtų?"
     ]
   },
   {
@@ -465,44 +465,44 @@
     "level2": [
       "Ar tau patinka šokti? Jei taip, kodėl? Jei ne, kodėl?",
       "Kada paskutinį kartą šokai? Pabandyk prisiminti, kaip tada jauteisi?",
-      "Jeigu reikėtų pasirinkti - šokti laisvai ir atsipalaidavus ar mokytis šokti kažką aiškaus su pradžia ir pabaiga - ką pasirinktum ir kodėl?"
+      "Jeigu reikėtų pasirinkti - šokti laisvai ir atsipalaidavus ar mokytis šokti kažką aiškaus su pradžia ir pabaiga - ką pasirinktum ir kodėl?"
     ],
     "level3": [
-      "Jeigu reikėtų prisistatyti kokiu nors judesiu, parodyk koks jis būtų?"
+      "Jeigu reikėtų prisistatyti kokiu nors judesiu, parodyk koks jis būtų?"
     ]
   },
   {
     "name": "Dainavimas",
     "level1": [
-      "Ar tau patinka dainuoti? Jei taip, kodėl? Jei ne, kodėl?",
+      "Ar tau patinka dainuoti? Jei taip, kodėl? Jei ne, kodėl?",
       "Kada paskutinį kartą dainavai? Pabandyk prisiminti, kaip tada jauteisi?"
     ],
     "level2": [
-      "Ar tau patinka dainuoti? Jei taip, kodėl? Jei ne, kodėl?",
+      "Ar tau patinka dainuoti? Jei taip, kodėl? Jei ne, kodėl?",
       "Kada paskutinį kartą dainavai? Pabandyk prisiminti, kaip tada jauteisi?",
       "Kokios dainos žodžius moki mintinai?",
-      "Ar kada nors klausei savo tėvų, kokias dainas jie tau dainuodavo, kai buvai mažas/a?"
+      "Ar kada nors klausei savo tėvų, kokias dainas jie tau dainuodavo, kai buvai mažas/a?"
     ],
     "level3": []
   },
   {
     "name": "Subkultūra",
     "level1": [
-      "Ar priklausai/ei kokiai nors subkultūrai (pavyzdžiui, gotai, emo, pankai, hip hoperíai ir kt.)? Jei taip, kas tave patraukė prie šios grupės? Jei ne, galbūt savo rate turi tokių žmonių?"
+      "Ar priklausai/ei kokiai nors subkultūrai (pavyzdžiui, gotai, emo, pankai, hip hoperíai ir kt.)? Jei taip, kas tave patraukė prie šios grupės? Jei ne, galbūt savo rate turi tokių žmonių?"
     ],
     "level2": [
-      "Ar priklausai/ei kokiai nors subkultūrai (pavyzdžiui, gotai, emo, pankai, hip hoperíai ir kt.)? Jei taip, kas tave patraukė prie šios grupės? Jei ne, galbūt savo rate turi tokių žmonių? Ar pavyksta išvengti steriotipiškumo ir priimti kitaip atrodančius žmones?"
+      "Ar priklausai/ei kokiai nors subkultūrai (pavyzdžiui, gotai, emo, pankai, hip hoperíai ir kt.)? Jei taip, kas tave patraukė prie šios grupės? Jei ne, galbūt savo rate turi tokių žmonių? Ar pavyksta išvengti steriotipiškumo ir priimti kitaip atrodančius žmones?"
     ],
     "level3": []
   },
   {
     "name": "Kultūra",
     "level1": [
-      "Kaip manai, kas daro/darė didžiausią įtaką tavo bendravimo kultūrai, t.y. kaip tu bendrauji, kiek esi mandagus, paslaugus, taktiškas ir pan. Ar norėtum mokytis tokio dalyko mokykloje?",
+      "Kaip manai, kas daro/darė didžiausią įtaką tavo bendravimo kultūrai, t.y. kaip tu bendrauji, kiek esi mandagus, paslaugus, taktiškas ir pan. Ar norėtum mokytis tokio dalyko mokykloje?",
       "Ar savo šeimoje turite kokių nors tradicijų (pavyzdžiui, religinių apeigų, papročių, žaidimų, mitų ir kt.)?"
     ],
     "level2": [
-      "Kaip manai, kas daro/darė didžiausią įtaką tavo bendravimo kultūrai, t.y. kaip tu bendrauji, kiek esi mandagus, paslaugus, taktiškas ir pan. Ar norėtum mokytis tokio dalyko mokykloje?",
+      "Kaip manai, kas daro/darė didžiausią įtaką tavo bendravimo kultūrai, t.y. kaip tu bendrauji, kiek esi mandagus, paslaugus, taktiškas ir pan. Ar norėtum mokytis tokio dalyko mokykloje?",
       "Ar savo šeimoje turite kokių nors tradicijų (pavyzdžiui, religinių apeigų, papročių, žaidimų, mitų ir kt.)?",
       "Kas tau svarbiausia, kai galvoji apie žmonių gyvenseną, mąstyseną, jauseną ir elgseną?"
     ],
@@ -513,13 +513,13 @@
   {
     "name": "Menas",
     "level1": [
-      "Ar esi buvęs/us kokioje nors parodoje, muziejuje, koncerte ar teatre? Papasakok, kas labiausiai iš ten įstrigo.",
-      "Koks menas tau pats artimiausias (pavyzdžiui, šokis, kinas, piešimas, tapyba, grafika, fotografija, teatras, vaidyba, poezija, kulinarija, kovos menai, architektūra ir t.t.) ir kodėl?"
+      "Ar esi buvęs/us kokioje nors parodoje, muziejuje, koncerte ar teatre? Papasakok, kas labiausiai iš ten įstrigo.",
+      "Koks menas tau pats artimiausias (pavyzdžiui, šokis, kinas, piešimas, tapyba, grafika, fotografija, teatras, vaidyba, poezija, kulinarija, kovos menai, architektūra ir t.t.) ir kodėl?"
     ],
     "level2": [
-      "Koks menas tau pats artimiausias (pavyzdžiui, šokis, kinas, piešimas, tapyba, grafika, fotografija, teatras, vaidyba, poezija, kulinarija, kovos menai, architektūra ir t.t.) ir kodėl?",
-      "Galbūt turi savo mėgstamų kūrinių? Kuo jie tau patinka?",
-      "Ar sutinki su mintimi, kad kiekvienas žmogus gali kurti meną? Kaip manai, kokios savybės reikalingos menininkui/ei?"
+      "Koks menas tau pats artimiausias (pavyzdžiui, šokis, kinas, piešimas, tapyba, grafika, fotografija, teatras, vaidyba, poezija, kulinarija, kovos menai, architektūra ir t.t.) ir kodėl?",
+      "Galbūt turi savo mėgstamų kūrinių? Kuo jie tau patinka?",
+      "Ar sutinki su mintimi, kad kiekvienas žmogus gali kurti meną? Kaip manai, kokios savybės reikalingos menininkui/ei?"
     ],
     "level3": []
   },
@@ -527,30 +527,30 @@
     "name": "Faktai",
     "level1": [
       "Kokių įdomių faktų žinai?",
-      "Ar žinojai, kad visos poliarinės meškos yra kairiarankės (kairialetenės), delfinai miega vienu metu ilsindami tik vieną smegenų pusę ir su viena atmerkta akimi, o jūrų arkliukai yra monogamiški ir jeigu susiporuoja – su savo partneriu būna visą likusį gyvenimą.",
+      "Ar žinojai, kad visos poliarinės meškos yra kairiarankės (kairialetenės), delfinai miega vienu metu ilsindami tik vieną smegenų pusę ir su viena atmerkta akimi, o jūrų arkliukai yra monogamiški ir jeigu susiporuoja – su savo partneriu būna visą likusį gyvenimą.",
       "Ar tau lengva atskirti melą nuo faktų?"
     ],
     "level2": [
       "Kokių įdomių faktų žinai?",
-      "Ar žinojai, kad visos poliarinės meškos yra kairiarankės (kairialetenės), delfinai miega vienu metu ilsindami tik vieną smegenų pusę ir su viena atmerkta akimi, o jūrų arkliukai yra monogamiški ir jeigu susiporuoja – su savo partneriu būna visą likusį gyvenimą.",
+      "Ar žinojai, kad visos poliarinės meškos yra kairiarankės (kairialetenės), delfinai miega vienu metu ilsindami tik vieną smegenų pusę ir su viena atmerkta akimi, o jūrų arkliukai yra monogamiški ir jeigu susiporuoja – su savo partneriu būna visą likusį gyvenimą.",
       "Ar tau lengva atskirti melą nuo faktų?",
-      "Kas internetinėje erdvėje tau padeda atskirti tikrą informaciją nuo dezinformacijos?"
+      "Kas internetinėje erdvėje tau padeda atskirti tikrą informaciją nuo dezinformacijos?"
     ],
     "level3": [
-      "Pasakyk apie save 2 tiesas ir 1 melą. Tegu tavo pašnekovas pabando atspėti, kuris iš tavo pasakytų teiginių apie tave yra neteisingas."
+      "Pasakyk apie save 2 tiesas ir 1 melą. Tegu tavo pašnekovas pabando atspėti, kuris iš tavo pasakytų teiginių apie tave yra neteisingas."
     ]
   },
   {
     "name": "Istorija",
     "level1": [
-      "Koks tau įdomiausias istorijos laikotarpis ir kodėl?",
-      "Kaip manai, ar būtum išgyvenęs/us priešistoriniais laikais?",
-      "Kokia yra svarbiausia pamoka, kurią žmonės gali išmokti iš istorijos?"
+      "Koks tau įdomiausias istorijos laikotarpis ir kodėl?",
+      "Kaip manai, ar būtum išgyvenęs/us priešistoriniais laikais?",
+      "Kokia yra svarbiausia pamoka, kurią žmonės gali išmokti iš istorijos?"
     ],
     "level2": [
-      "Koks tau įdomiausias istorijos laikotarpis ir kodėl?",
-      "Kaip manai, ar būtum išgyvenęs/us priešistoriniais laikais?",
-      "Kokia yra svarbiausia pamoka, kurią žmonės gali išmokti iš istorijos?"
+      "Koks tau įdomiausias istorijos laikotarpis ir kodėl?",
+      "Kaip manai, ar būtum išgyvenęs/us priešistoriniais laikais?",
+      "Kokia yra svarbiausia pamoka, kurią žmonės gali išmokti iš istorijos?"
     ],
     "level3": [
       "Papasakok kokią nors trumpą istoriją iš savo gyvenimo naudodamas trečią asmenį."
@@ -559,28 +559,28 @@
   {
     "name": "Geografija",
     "level1": [
-      "Jeigu galėtum pasirinkti, kurioje šalyje gyventi, kokia šalis tai būtų ir kodėl?",
-      "Ar tai, kad gimei Lietuvoje laikai kaip prvalumą ar manai, kad galėjo ir labiau pasisekti? Kas tau patinka apie Lietuvą?"
+      "Jeigu galėtum pasirinkti, kurioje šalyje gyventi, kokia šalis tai būtų ir kodėl?",
+      "Ar tai, kad gimei Lietuvoje laikai kaip prvalumą ar manai, kad galėjo ir labiau pasisekti? Kas tau patinka apie Lietuvą?"
     ],
     "level2": [
-      "Jeigu galėtum pasirinkti, kurioje šalyje gyventi, kokia šalis tai būtų ir kodėl?",
-      "Ar tai, kad gimei Lietuvoje laikai kaip prvalumą ar manai, kad galėjo ir labiau pasisekti? Kas tau patinka apie Lietuvą?"
+      "Jeigu galėtum pasirinkti, kurioje šalyje gyventi, kokia šalis tai būtų ir kodėl?",
+      "Ar tai, kad gimei Lietuvoje laikai kaip prvalumą ar manai, kad galėjo ir labiau pasisekti? Kas tau patinka apie Lietuvą?"
     ],
     "level3": [
-      "Jeigu turite laiko, atsidarykite google maps žemėlapį ir pasivaikščiokite su žmogeliuku po šalį į kurią norėtumėte nukeliauti ateityje (Funkcija dešiniame lango kampe: browse street view image)"
+      "Jeigu turite laiko, atsidarykite google maps žemėlapį ir pasivaikščiokite su žmogeliuku po šalį į kurią norėtumėte nukeliauti ateityje (Funkcija dešiniame lango kampe: browse street view image)"
     ]
   },
   {
     "name": "Mokslai",
     "level1": [
-      "Koks dalykas mokykloje tau labiausiai patinka ir sekasi? Kaip manai kodėl?",
-      "O koks labiausiai nepatinka? Kodėl?",
-      "Jeigu galėtum pasirinkti kažkurį iš mokomųjų dalykų mokėti tobulai, kas tai būtų ir kodėl būtent šitas dalykas?"
+      "Koks dalykas mokykloje tau labiausiai patinka ir sekasi? Kaip manai kodėl?",
+      "O koks labiausiai nepatinka? Kodėl?",
+      "Jeigu galėtum pasirinkti kažkurį iš mokomųjų dalykų mokėti tobulai, kas tai būtų ir kodėl būtent šitas dalykas?"
     ],
     "level2": [
-      "Koks dalykas mokykloje tau labiausiai patinka ir sekasi? Kaip manai kodėl?",
-      "O koks labiausiai nepatinka? Kodėl?",
-      "Jeigu būtum švietimo ministras/ė, ką pirmiausiai pakeistum? Kodėl?"
+      "Koks dalykas mokykloje tau labiausiai patinka ir sekasi? Kaip manai kodėl?",
+      "O koks labiausiai nepatinka? Kodėl?",
+      "Jeigu būtum švietimo ministras/ė, ką pirmiausiai pakeistum? Kodėl?"
     ],
     "level3": [
       "Kai galvoji apie mokytojo pavyzdį, koks/kokia mokytoja ateina į galvą? Pasidalink."
@@ -588,75 +588,75 @@
   },
   {
     "name": "Autoritetai",
-    "level1": ["Kokį žmogų/žmones laikai savo autoritetu/ais? Kodėl?"],
-    "level2": ["Kokį žmogų/žmones laikai savo autoritetu/ais? Kodėl?"],
-    "level3": ["Papasakok apie žmogų, kuris padarė tavo gyvenime įtaką."]
+    "level1": ["Kokį žmogų/žmones laikai savo autoritetu/ais? Kodėl?"],
+    "level2": ["Kokį žmogų/žmones laikai savo autoritetu/ais? Kodėl?"],
+    "level3": ["Papasakok apie žmogų, kuris padarė tavo gyvenime įtaką."]
   },
   {
-    "name": "Asmeninės savybės",
+    "name": "Asmeninės savybės",
     "level1": [
       "Pagalvok ir pasakyk 3 gerus dalykus apie save.",
-      "Pagalvok ir pasakyk 3 dalykus, kuriuos norėtm tobulinti savyje."
+      "Pagalvok ir pasakyk 3 dalykus, kuriuos norėtm tobulinti savyje."
     ],
     "level2": [
       "Pagalvok ir pasakyk 3 gerus dalykus apie save.",
-      "Pagalvok ir pasakyk 3 dalykus, kuriuos norėtm tobulinti savyje.",
-      "Kaip manai, ar dalykai, kuriuos veiki gyvenime siejas su tavo stipriosiomis pusėmis ir pomėgiais? Jei ne, kaip manai, nuo ko galėtum pradėti?"
+      "Pagalvok ir pasakyk 3 dalykus, kuriuos norėtm tobulinti savyje.",
+      "Kaip manai, ar dalykai, kuriuos veiki gyvenime siejas su tavo stipriosiomis pusėmis ir pomėgiais? Jei ne, kaip manai, nuo ko galėtum pradėti?"
     ],
-    "level3": ["Pagalvok ir užrašyk sau palinkėjimą."]
+    "level3": ["Pagalvok ir užrašyk sau palinkėjimą."]
   },
   {
-    "name": "Tikėjimas",
+    "name": "Tikėjimas",
     "level1": [
-      "Ar tiki Dievu? Kodėl?",
-      "Ar lankaisi bažnyčioje? Su kuo ji tau asocijuojasi? Ar norėtum kažką joje pakeisti/sukurti?"
+      "Ar tiki Dievu? Kodėl?",
+      "Ar lankaisi bažnyčioje? Su kuo ji tau asocijuojasi? Ar norėtum kažką joje pakeisti/sukurti?"
     ],
     "level2": [
-      "Ar tiki Dievu? Kodėl?",
-      "Ar lankaisi bažnyčioje? Su kuo ji tau asocijuojasi? Ar norėtum kažką joje pakeisti/sukurti?",
-      "Koks tavo santykis su kitais tikėjimais/religijomis? Pavyzdžiui, budizmu, islamu, induizmu ir kt.?"
+      "Ar tiki Dievu? Kodėl?",
+      "Ar lankaisi bažnyčioje? Su kuo ji tau asocijuojasi? Ar norėtum kažką joje pakeisti/sukurti?",
+      "Koks tavo santykis su kitais tikėjimais/religijomis? Pavyzdžiui, budizmu, islamu, induizmu ir kt.?"
     ],
     "level3": [
-      "Nesvarbu esi tikintis ar ne, užsimerk ir nusiųsk kokį nors palinkėjimą savo mylimam žmogui."
+      "Nesvarbu esi tikintis ar ne, užsimerk ir nusiųsk kokį nors palinkėjimą savo mylimam žmogui."
     ]
   },
   {
-    "name": "Gyvenimo prasmė",
+    "name": "Gyvenimo prasmė",
     "level1": [
-      "Kaip manai, kokia yra gyvenimo prasmė?",
-      "Jeigu galėtum pasirinkti, rinktumeis būti laimingas ar sėkmingas? Kas tau atrodo svarbiau ir kodėl?"
+      "Kaip manai, kokia yra gyvenimo prasmė?",
+      "Jeigu galėtum pasirinkti, rinktumeis būti laimingas ar sėkmingas? Kas tau atrodo svarbiau ir kodėl?"
     ],
     "level2": [
-      "Kaip manai, kokia yra gyvenimo prasmė?",
-      "Jeigu galėtum pasirinkti, rinktumeis būti laimingas ar sėkmingas? Kas tau atrodo svarbiau ir kodėl?",
-      "Ar sutinki su posakiu “Žmogus yra savo gyvenimo kalvis”? Kodėl?"
+      "Kaip manai, kokia yra gyvenimo prasmė?",
+      "Jeigu galėtum pasirinkti, rinktumeis būti laimingas ar sėkmingas? Kas tau atrodo svarbiau ir kodėl?",
+      "Ar sutinki su posakiu “Žmogus yra savo gyvenimo kalvis”? Kodėl?"
     ],
     "level3": []
   },
   {
     "name": "Mirtis/laikinumas",
     "level1": [
-      "Ar esi susidūręs su kokių nors artimų žmonių mirtimi? Jeigu gali, papasakok kaip tada jauteisi? Kas padėjo arba nepadėjo tai išgyventi?",
-      "Galbūt esi palaidojęs kokį nors gyvūną? Jeigu gali, papasakok apie šią patirtį."
+      "Ar esi susidūręs su kokių nors artimų žmonių mirtimi? Jeigu gali, papasakok kaip tada jauteisi? Kas padėjo arba nepadėjo tai išgyventi?",
+      "Galbūt esi palaidojęs kokį nors gyvūną? Jeigu gali, papasakok apie šią patirtį."
     ],
     "level2": [
-      "Ar esi susidūręs su kokių nors artimų žmonių mirtimi? Jeigu gali, papasakok kaip tada jauteisi? Kas padėjo arba nepadėjo tai išgyventi?",
-      "Galbūt esi palaidojęs kokį nors gyvūną? Jeigu gali, papasakok apie šią patirtį.",
+      "Ar esi susidūręs su kokių nors artimų žmonių mirtimi? Jeigu gali, papasakok kaip tada jauteisi? Kas padėjo arba nepadėjo tai išgyventi?",
+      "Galbūt esi palaidojęs kokį nors gyvūną? Jeigu gali, papasakok apie šią patirtį.",
       "Kaip manai, kas būna po mirties?"
     ],
     "level3": []
   },
   {
-    "name": "Dėkingumas",
+    "name": "Dėkingumas",
     "level1": [
-      "Už ką jautiesi dėkingas? Pasidalink.",
-      "Kokiam žmogui norėtum padėkoti ir už ką?",
-      "Už ką galėtum padėkoti sau?"
+      "Už ką jautiesi dėkingas? Pasidalink.",
+      "Kokiam žmogui norėtum padėkoti ir už ką?",
+      "Už ką galėtum padėkoti sau?"
     ],
     "level2": [
-      "Už ką jautiesi dėkingas? Pasidalink.",
-      "Kokiam žmogui norėtum padėkoti ir už ką?",
-      "Už ką galėtum padėkoti sau?"
+      "Už ką jautiesi dėkingas? Pasidalink.",
+      "Kokiam žmogui norėtum padėkoti ir už ką?",
+      "Už ką galėtum padėkoti sau?"
     ],
     "level3": [
       "Jeigu jautiesi patogiai, apkabink save ir pasidžiauk tuo, koks/kokia esi :)"
@@ -665,27 +665,27 @@
   {
     "name": "Tolerancija",
     "level1": [
-      "Kaip manai, ar esi tolerantiškas žmogus? Kodėl?",
-      "Galbūt esi tyčiojęsis/usi ar girdėjęs/us kaip tyčiojamasi iš kokio nors žmogaus? Kaip tada jauteisi? Ar ką nors dėl to darei? Kaip manai, ar ir šiandien elgtumeisi taip pat, kodėl?",
-      "Ar kada nors yra tekę apsimesti tuo, kuo iš tiesų nesi? Jei taip, kaip tada jauteisi? Jei ne, pabandyk įsivaizduoti, kaip jaustumeisi tokiu atveju."
+      "Kaip manai, ar esi tolerantiškas žmogus? Kodėl?",
+      "Galbūt esi tyčiojęsis/usi ar girdėjęs/us kaip tyčiojamasi iš kokio nors žmogaus? Kaip tada jauteisi? Ar ką nors dėl to darei? Kaip manai, ar ir šiandien elgtumeisi taip pat, kodėl?",
+      "Ar kada nors yra tekę apsimesti tuo, kuo iš tiesų nesi? Jei taip, kaip tada jauteisi? Jei ne, pabandyk įsivaizduoti, kaip jaustumeisi tokiu atveju."
     ],
     "level2": [
-      "Kaip manai, ar esi tolerantiškas žmogus? Kodėl?",
-      "Prisimink kokią nors situaciją iš savo gyvenimo, kada sutikai kitokį žmogų (pavyzdžiui, turintį ne tradicinę orientaciją, kitokios rasės žmogų ar žmogų sėdintį rateliuose). Kaip tada jauteisi, elgeisi?",
-      "Ar kada nors yra tekę apsimesti tuo, kuo iš tiesų nesi? Jei taip, kaip tada jauteisi? Jei ne, pabandyk įsivaizduoti, kaip jaustumeisi tokiu atveju.",
-      "Ar jauti, kad gali pilnai būti toks/tokia, koks/kokia esi? Jei ne, kaip manai kodėl?"
+      "Kaip manai, ar esi tolerantiškas žmogus? Kodėl?",
+      "Prisimink kokią nors situaciją iš savo gyvenimo, kada sutikai kitokį žmogų (pavyzdžiui, turintį ne tradicinę orientaciją, kitokios rasės žmogų ar žmogų sėdintį rateliuose). Kaip tada jauteisi, elgeisi?",
+      "Ar kada nors yra tekę apsimesti tuo, kuo iš tiesų nesi? Jei taip, kaip tada jauteisi? Jei ne, pabandyk įsivaizduoti, kaip jaustumeisi tokiu atveju.",
+      "Ar jauti, kad gali pilnai būti toks/tokia, koks/kokia esi? Jei ne, kaip manai kodėl?"
     ],
     "level3": []
   },
   {
     "name": "Sportas",
     "level1": [
-      "Ar mėgsti sportuoti ir jei taip, ką? Kaip dažnai tai darai ir kodėl?",
-      "Jeigu galėtum pasirinkti būti olimpinis/ė čempionas/ė, kokia sporto šaka tai būtų?"
+      "Ar mėgsti sportuoti ir jei taip, ką? Kaip dažnai tai darai ir kodėl?",
+      "Jeigu galėtum pasirinkti būti olimpinis/ė čempionas/ė, kokia sporto šaka tai būtų?"
     ],
     "level2": [
-      "Ar mėgsti sportuoti ir jei taip, ką? Kaip dažnai tai darai ir kodėl?",
-      "Jeigu galėtum pasirinkti būti olimpinis/ė čempionas/ė, kokia sporto šaka tai būtų?"
+      "Ar mėgsti sportuoti ir jei taip, ką? Kaip dažnai tai darai ir kodėl?",
+      "Jeigu galėtum pasirinkti būti olimpinis/ė čempionas/ė, kokia sporto šaka tai būtų?"
     ],
     "level3": [
       "Kartu su savo pašnekovu padarykite 10 pritūpimų arba atsispaudimų."
@@ -694,16 +694,16 @@
   {
     "name": "Melas",
     "level1": [
-      "Ar dažnai meluoji? Kaip dėl to jautiesi?",
-      "Ar lengvai atpažįsti, kai tau meluoja kiti žmonės? Kaip tada jautiesi?"
+      "Ar dažnai meluoji? Kaip dėl to jautiesi?",
+      "Ar lengvai atpažįsti, kai tau meluoja kiti žmonės? Kaip tada jautiesi?"
     ],
     "level2": [
-      "Ar dažnai meluoji? Kaip dėl to jautiesi?",
-      "Ar lengvai atpažįsti, kai tau meluoja kiti žmonės? Kaip tada jautiesi?",
+      "Ar dažnai meluoji? Kaip dėl to jautiesi?",
+      "Ar lengvai atpažįsti, kai tau meluoja kiti žmonės? Kaip tada jautiesi?",
       "Ar manai, kad yra juodas melas ir baltas melas? Ar pateisini kokį nors melą?"
     ],
     "level3": [
-      "Pasakyk apie save 2 tiesas ir 1 melą. Tegu tavo pašnekovas pabando atspėti, kuris iš tavo pasakytų teiginių apie tave yra neteisingas."
+      "Pasakyk apie save 2 tiesas ir 1 melą. Tegu tavo pašnekovas pabando atspėti, kuris iš tavo pasakytų teiginių apie tave yra neteisingas."
     ]
   },
   {
@@ -715,37 +715,37 @@
     "level2": [
       "Ar dažnai pyksti? Kaip pasireiškia tavo pyktis?",
       "Kas padeda išbūti su savo pykčiu, nurimti?",
-      "Kai jauti pykti, ar priėmi jį ar labiau nustumi kažkur gilyn į vidų? Kaip manai kodėl?",
+      "Kai jauti pykti, ar priėmi jį ar labiau nustumi kažkur gilyn į vidų? Kaip manai kodėl?",
       "Ar kada nors buvai sužeistas/a kito žmogaus pykčio? Jei taip, kaip tada jauteisi?"
     ],
     "level3": [
-      "Jeigu jauti, kad turi susikaupusio pykčio, kai šiandien grįši namo, pasistenk jį išlieti (galbūt per muziką, šokį, piešimą, išsirėkimą į pagalvę, popieriaus plėšymą ar kriaušės daužymą)."
+      "Jeigu jauti, kad turi susikaupusio pykčio, kai šiandien grįši namo, pasistenk jį išlieti (galbūt per muziką, šokį, piešimą, išsirėkimą į pagalvę, popieriaus plėšymą ar kriaušės daužymą)."
     ]
   },
   {
     "name": "Čia ir dabar",
     "level1": [
       "Ar daug galvoji apie ateitį? Kokius jausmus tai sukelia?",
-      "Ar dažnai galvoji apie praeitį? Jei taip, kaip manai kodėl?",
+      "Ar dažnai galvoji apie praeitį? Jei taip, kaip manai kodėl?",
       "Kaip jautiesi šiuo metu?"
     ],
     "level2": [
-      "Kur dažniausiai surandi save: praietyje, dabartyje ar ateityje? Kaip manai kodėl?"
+      "Kur dažniausiai surandi save: praietyje, dabartyje ar ateityje? Kaip manai kodėl?"
     ],
     "level3": [
-      "Sugrįžk į čia ir dabar. Jei nori, gali užsimerkti. Pastebėk kaip jaučiasi tavo kūnas. Kokios mintys atplaukia į galvą. Koks jausmas būti čia ir dabar. Kai būsi pasiruošęs/us atsimerk ir nuoširdžiai pasižiūrėk į priešais sėdintį žmogų."
+      "Sugrįžk į čia ir dabar. Jei nori, gali užsimerkti. Pastebėk kaip jaučiasi tavo kūnas. Kokios mintys atplaukia į galvą. Koks jausmas būti čia ir dabar. Kai būsi pasiruošęs/us atsimerk ir nuoširdžiai pasižiūrėk į priešais sėdintį žmogų."
     ]
   },
   {
     "name": "Laikas",
     "level1": [
       "Ar tau užtenka laiko? Jei ne, kam jo trūksta labiausiai?",
-      "Ką manai apie šią taisyklę: 8 valandos poilsio, 8 valandos darbo ir 8 valandos laisvalaikio. Kaip atrodytų tavo valandų pasiskirstymas? Ką norėtum keisti savo dienotvarkėje ir kodėl?"
+      "Ką manai apie šią taisyklę: 8 valandos poilsio, 8 valandos darbo ir 8 valandos laisvalaikio. Kaip atrodytų tavo valandų pasiskirstymas? Ką norėtum keisti savo dienotvarkėje ir kodėl?"
     ],
     "level2": [
-      "Kaip jautiesi gyvendama/s šio pasaulio ritmu? Ar kartais jautiesi tarsi gyvenimas bėgtų pro šalį ir negalėtum jo sustabdyti? O gal atvirkščiai, jautiesi labiau užstrigus/ęs ir kartais tieisog norėtum prasukti laiką? Kaip manai kodėl taip yra?",
-      "Ką manai apie šią taisyklę: 8 valandos poilsio, 8 valandos darbo ir 8 valandos laisvalaikio. Kaip atrodytų tavo valandų pasiskirstymas? Ką norėtum keisti savo dienotvarkėje ir kodėl?",
-      "Kokio laiko pasiilgsti ir kodėl?"
+      "Kaip jautiesi gyvendama/s šio pasaulio ritmu? Ar kartais jautiesi tarsi gyvenimas bėgtų pro šalį ir negalėtum jo sustabdyti? O gal atvirkščiai, jautiesi labiau užstrigus/ęs ir kartais tieisog norėtum prasukti laiką? Kaip manai kodėl taip yra?",
+      "Ką manai apie šią taisyklę: 8 valandos poilsio, 8 valandos darbo ir 8 valandos laisvalaikio. Kaip atrodytų tavo valandų pasiskirstymas? Ką norėtum keisti savo dienotvarkėje ir kodėl?",
+      "Kokio laiko pasiilgsti ir kodėl?"
     ],
     "level3": []
   }
