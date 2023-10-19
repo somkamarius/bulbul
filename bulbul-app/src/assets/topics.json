@@ -747,5 +747,89 @@
       "Kokio laiko pasiilgsti ir kodėl?"
     ],
     "level3": []
+  },
+  {
+    "name": "Alkoholis/rūkymas/narkotikai",
+    "level1": [
+      "Ar esi bandęs? Su kuo ir dėl ko tai darei? Kokia tavo nuomonė apie svaigalų vartojimą?",
+      "Ar esi kalbėjęs šia tema su tėvais? Ar turite kokių nors susitarimų tavo šeimoje?",
+      "Jeigu vartoji, ar prieš tai įvertini aplinkybes: ar pasitiki žmonėmis su kuriais tai darai, ar yra nors vienas žmogus, kuris prireikus galėtų tavimi pasirūpinti, ar pažįsti savo organizmą ir kaip jis veikia apsinuodijus?",
+      "Jeigu pasidarytų bloga ar pasijautum nesaugus/i, kur kreiptumeisi pagalbos?"
+    ],
+    "level2": [
+      "Ar esi bandęs alkoholio? Rūkyti? Narkotikų? Su kuo ir dėl ko tai darei? Kokia tavo nuomonė apie svaigalų vartojimą?",
+      "Ar esi kalbėjęs šia tema su tėvais? Ar turite kokių nors susitarimų tavo šeimoje?",
+      "Jeigu vartoji, ar prieš tai įvertini aplinkybes: ar pasitiki žmonėmis su kuriais tai darai, ar yra nors vienas žmogus, kuris prireikus galėtų tavimi pasirūpinti, ar pažįsti savo organizmą ir kaip jis veikia apsinuodijus?",
+      "Jeigu pasidarytų bloga ar pasijautum nesaugus/i, kur kreiptumeisi pagalbos?",
+      "Kaip manai, kas galėtų sumažinti neatsakingą psichotropinių medžiagų vartojimą?"
+    ],
+    "level3": [
+      "Kaip manai, kas galėtų sumažinti neatsakingą psichotropinių medžiagų vartojimą? Ar tavo nuomone mokykloje ir visuomenėje taikomos prevencijos yra efektyvios, kodėl?"
+    ]
+  },
+  {
+    "name": "Pasitikėjimas /savivertė",
+    "level1": [
+      "Ar pasitiki savimi? Kaip manai, kodėl?",
+      "Ar tau lengviau pasitikėti savimi ar kitais? Kaip manai kodėl?",
+      "Kas tau padeda/padėtų labiau pasitikėti savo jėgomis: kad gali pasiekti savo užsibrėžtų tikslų, įveikti iššūkį ir t.t.?",
+      "Kaip manai, ar tokie dalykai kaip pažymiai, rasė, socialinė padėtis ir pan. apsprendžia žmogaus vertę? Paaiškink savo atsakymą.",
+      "Pagalvok ir įvardink bent vieną žmogų, kuriuo pasitiki 100%. Jeigu tokio žmogaus nėra, kaip manai kodėl?"
+    ],
+    "level2": [
+      "Ar pasitiki savimi? Kaip manai, kodėl?",
+      "Ar tau lengviau pasitikėti savimi ar kitais? Kaip manai kodėl?",
+      "Kas tau padeda/padėtų labiau pasitikėti savo jėgomis: kad gali pasiekti savo užsibrėžtų tikslų, įveikti iššūkį ir t.t.?",
+      "Kaip manai, ar tokie dalykai kaip pažymiai, rasė, socialinė padėtis ir pan. apsprendžia žmogaus vertę? Paaiškink savo atsakymą.",
+      "Pagalvok ir įvardink bent vieną žmogų, kuriuo pasitiki 100%. Jeigu tokio žmogaus nėra, kaip manai kodėl?"
+    ],
+    "level3": []
+  },
+  {
+    "name": "Lyderystė",
+    "level1": [
+      "Kaip manai, kokios savybės žmoguje svarbios, kad būtum geras lyderis?",
+      "Ar galėtum įvardinti kas tavo klasėje ar draugų rate yra lyderiai? Kaip tai pasireiškia?",
+      "Kaip manai, ar lyderis yra tas, kuriam viskas gerai sekasi ar tas, kuris sugeba pasirūpinti ne tik savimi, bet ir aplinkui esančiais? Kodėl taip manai?"
+    ],
+    "level2": [
+      "Kaip manai, kokios savybės žmoguje svarbios, kad būtum geras lyderis?",
+      "Ar galėtum įvardinti kas tavo klasėje ar draugų rate yra lyderiai? Kaip tai pasireiškia?",
+      "Kaip manai, ar lyderis yra tas, kuriam viskas gerai sekasi ar tas, kuris sugeba pasirūpinti ne tik savimi, bet ir aplinkui esančiais? Kodėl taip manai?"
+    ],
+    "level3": [
+      "Prisimink gyvenimo situaciją, kurioje buvai lyderis/ė: prisiėmei atsakomybę, ėmeisi iniciatyvos ar pasirūpinai grupės gerbūviu. Kaip tada jauteisi? Ar tau lengva būti lyderiu/e ar mieliau renkiesi tokiu nebūti? Kodėl?"
+    ]
+  },
+  {
+    "name": "Konfliktai",
+    "level1": [
+      "Ar dažnai konfliktuoji? Kaip manai kodėl?",
+      "Ar konflikto metu tau svarbiau laimėti/įrodyti savo tiesą ar surasti bendrą sutarimą/nesusipykti? Kaip manai kodėl?",
+      "Kas tau padeda išvengti konfliktų? O gal kaip tik manai, kad tave tai traukia? Kaip manai kodėl?"
+    ],
+    "level2": [
+      "Ar dažnai konfliktuoji? Kaip manai kodėl?",
+      "Ar konflikto metu tau svarbiau laimėti/įrodyti savo tiesą ar surasti bendrą sutarimą/nesusipykti? Kaip manai kodėl?",
+      "Kas tau padeda išvengti konfliktų? O gal kaip tik manai, kad tave tai traukia? Kaip manai kodėl?",
+      "Koks konfliktas pasaulio kontekste labiausiai tave sukrėtė, kodėl?"
+    ],
+    "level3": []
+  },
+  {
+    "name": "Ypatingieji/specialieji poreikiai",
+    "level1": [
+      "Ar žinai, kas yra ypatingieji/specialieji poreikiai? Ar turi savo klasėje ar aplinkoje žmonių, kurie turi ypatingųjų/specialiųjų poreikių? Ar tau tai sukelia kokių nors iššūkių, kaip manai kodėl? Kaip manai, kokių iššūkių turi šie žmonės mokydamiesi tavo mokykloje ar gyvendami mūsų visuomenėje?",
+      "Ar norėtum, kad mokykloje būtų daugiau kalbama apie skirtingus iššūkius su kuriais susiduria žmonės, apie mūsų visų skirtybes ir panašumus?",
+      "Ar manai, kad žmonės yra labiau tarpusavyje panašūs ar skirtingi? Kodėl taip manai?",
+      "Paaiškinimas:<br/>Ypatignieji/specialieji poreikiai vaikams fiksuojami tada, kai šių vaikų raida skiriasi nuo daugumos vaikų vienu ar keliais tokiais požymiais:<ul><li>jie gali turėti intelekto sutrikimo negalią;</li><li>mokymosi sunkumų;</li><li>emocinių ir elgesio sutrikimų;</li><li>fizinių negalių;</li><li>klausos ar regos sutrikimų;</li><li>išsiskirti ypatingais gabumais ar talentu.</li></ul><br/> Ypatingųjų/specialiųjų poreikių gali turėti bet kokio amžiaus žmogus."
+    ],
+    "level2": [
+      "Ar žinai, kas yra ypatingieji/specialieji poreikiai? Ar turi savo klasėje ar aplinkoje žmonių, kurie turi ypatingųjų/specialiųjų poreikių? Ar tau tai sukelia kokių nors iššūkių, kaip manai kodėl? Kaip manai, kokių iššūkių turi šie žmonės mokydamiesi tavo mokykloje ar gyvendami mūsų visuomenėje?",
+      "Ar norėtum, kad mokykloje būtų daugiau kalbama apie skirtingus iššūkius su kuriais susiduria žmonės, apie mūsų visų skirtybes ir panašumus?",
+      "Ar manai, kad žmonės yra labiau tarpusavyje panašūs ar skirtingi? Kodėl taip manai?",
+      "Paaiškinimas:<br/>Ypatignieji/specialieji poreikiai vaikams fiksuojami tada, kai šių vaikų raida skiriasi nuo daugumos vaikų vienu ar keliais tokiais požymiais:<ul><li>jie gali turėti intelekto sutrikimo negalią;</li><li>mokymosi sunkumų;</li><li>emocinių ir elgesio sutrikimų;</li><li>fizinių negalių;</li><li>klausos ar regos sutrikimų;</li><li>išsiskirti ypatingais gabumais ar talentu.</li></ul><br/> Ypatingųjų/specialiųjų poreikių gali turėti bet kokio amžiaus žmogus."
+    ],
+    "level3": []
   }
 ]
