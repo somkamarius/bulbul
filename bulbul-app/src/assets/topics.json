@@ -10,7 +10,7 @@
       "Kurią savo laisvalaikio dalį mėgsti labiausiai?"
     ],
     "level3": [
-      "Pokalbio metu parekomenduokite viena/s kitai/m po kokią nors laisvalaikio veiklą/vietą (pavyzdžiui, jums patinkantį būrelį, veiklą, internetinį puslapį, podcastą, pasivaikščiojimo mašrutą ar pan.)"
+      "Pokalbio metu parekomenduokite viena/s kitai/m po kokią nors laisvalaikio veiklą/vietą (pavyzdžiui, tau patinkantį būrelį, veiklą, internetinį puslapį, podcastą, pasivaikščiojimo mašrutą ar pan.,)"
     ]
   },
   {
@@ -54,7 +54,7 @@
       "Kaip manai, ar sveikai matiniesi? Pagrįsk savo atsakymą."
     ],
     "level3": [
-      "Užsimerkit ir pabandykit prisiminti tą kartą, kada valgėt skaniausią savo gyvenime patiekalą. Kokius pojūčius tada jautėt? Pasidalinkit savo prisiminimais."
+      "Užsimerk ir pabandyk prisiminti tą kartą, kada valgei skaniausią savo gyvenime patiekalą. Kokius pojūčius tada jautei? Pasidalink savo prisiminimais."
     ]
   },
   {
@@ -82,9 +82,7 @@
       "Jei galėtum pasirinkti vieną iš šių kelionių, kurią pasirinktum ir kodėl?<ul><li>1. Žygis kalnuose su palapine einant į tam tikrą tikslą ar kopiant į viršūnę.</li><li>2. Backpack'inimas po Aziją ar Pietų Ameriką neturint aiškaus plano.</li><li>3. Kelionė po Europą su traukiniais pažįstant skirtingus miestus, kultūrą.</li><li>4. Kelionė su dviračiu aplink Lietuvą.</li><li>5. Kelionė buriniu laivu per Atlantą.</li></ul>",
       "Kas būtų tavo kelionės partneris/iai?<ul><li>1. Draugai</li><li>2. Norėčiau turėti tokią kelionę vienas/a</li><li>3. Šeima</li><li>4. Kiti bendraminčiai, nebūtinai pažįstami ar draugai</li></ul>"
     ],
-    "level3": [
-      "Paprašykite pašnekovo užsimerkti ir įsivaizduoti kelionę apie kurią pasirinkote pasakoti.<br/><i>Galite pradėti, pavyzdžiui,<br/>“Įsivaizduok, kad stovi aplink snieguotas kalnų viršūnes, o prieš tave didžiulis kalnas nuo kurio tuoj tuoj pasileisi…”</i>"
-    ]
+    "level3": []
   },
   {
     "name": "Hobiai/pomėgiai",
@@ -110,18 +108,18 @@
       "Jei būtum gyvūnas, koks gyvūnas būtum? Įvardink 3 šio gyvūno savybes, kurios tau tiktų."
     ],
     "level3": [
-      "Įsivaizduokite, kad esate kažkoks gyvūnas, bet apie tai nesakykite savo pašnekovui. Kalbėdami kelionių tema pabandykite imituoti savo pasirinktą gyvūną (manieromis, kūno kalba ar garsais) ir leiskite pašnekovui spėti, koks gyvūnas buvote šio pokalbio metu."
+      "Įsivaizduok, kad esi kažkoks gyvūnas, bet apie tai nesakyk savo pašnekovui. Kalbėdamas/a šia tema pabandyk imituoti savo pasirinktą gyvūną (manieromis, kūno kalba ar garsais) ir leisk pašnekovui spėti, koks gyvūnas buvai šio pokalbio metu."
     ]
   },
   {
     "name": "Humoras",
     "level1": [
       "Kaip apibūdintum savo humoro jausmą, kas tau juokinga?",
-      "Prisimink ir papasakok situaciją, kai verkei iš juoko."
+      "Prisimink ir papasakok situaciją, kai verkei iš juoko.",
+      "Papasakok savo mėgstamą anekdotą, jei tokį turi."
     ],
     "level2": [
-      "Su kuriuo žmogumi dažniausiai juokiesi ir kodėl?",
-      "Kaip jautiesi po geros juoko dozės?",
+      "Su kuriuo žmogumi dažniausiai juokiesi ir kodėl? Kaip jautiesi po geros juoko dozės?",
       "Papasakok savo mėgstamą anekdotą, jei tokį turi.",
       "Koks humoras tau nepatinka?",
       "Kur yra riba tarp humoro ir patyčių?"
@@ -133,30 +131,32 @@
   {
     "name": "Žaidimai",
     "level1": [
-      "Koks mėgstamiausias tavo žaidimas (kompiuterinis ar telefoninis) ir kodėl?",
-      "Kiek laiko praleidi žaisdamas kompiuterinius ir telefoninius žaidimus?",
-      "Ar turi dėl to kokių nors problemų/iššūkių?"
+      "Kokie mėgstamiausias tavo žaidimai ir kodėl?",
+      "Galite patyrinėti kiek ir kokių žaidimų turit savo telefonuose. Kokie tai žaidimai? Ką tie žaidimai sako apie tave? Ko iš jų išmoksti?",
+      "Ar daug žaidi su kompiuteriu ar telefonu? Ar pastebi kaip tave veikia kompiuteriniai žaidimai? Galbūt pažaidus/ęs jautiesi labiau motyvuota/s, kažkame patobulėjus/ęs, o gal atvirkščiai jauti, kad sunku grįžti į šią realybę, jauti nuovargį ar apatiją? Kaip manai kodėl vienaip ar kitaip jautiesi?",
+      "Ar tau užtenka laiko tavo mėgstamiems žaidimams?"
     ],
     "level2": [
+      "Kokie mėgstamiausias tavo žaidimai ir kodėl?",
+      "Ar daug žaidi su kompu? Ar pastebi kaip tave veikia kompiuteriniai žaidimai? Galbūt pažaidus/ęs jautiesi labiau motyvuota/s, kažkame patobulėjus/ęs, o gal atvirkščiai jauti, kad sunku grįžti į šią realybę, jauti nuovargį ar apatiją? Kaip manai kodėl vienaip ar kitaip jautiesi?",
       "Jeigu kurtum žaidimą, koks jis būtų ir kodėl būtent toks?",
-      "Ar pastebi kaip tave veikia kompiuteriniai žaidimai? Galbūt pažaidus/ęs jautiesi labiau motyvuota/s, kažkame patobulėjus/ęs, o gal atvirkščiai jauti, kad sunku grįžti į šią realybę, jauti nuovargį ar apatiją? Kaip manai kodėl vienaip ar kitaip jautiesi?"
+      "Ar tau gyvenime svarbus žaismingumas, galėjimas gyvenime į dalykus pasižiūrėti paprastai, žaismingai?"
     ],
     "level3": [
-      "Pokalbio metu pažaiskite kokį nors paprastą žaidimą (pavyzdžiui, “vaskichi”, “nykščių žaidimą”, “kryžiukus nuliukus”, “akių karą, kur laimi ilgiau nesumirksėjus/ęs” ir pan.)",
-      "Pasiimkite telefoną, paskaičiuokite kiek žaidimų turite. Kokie žaidimai? Ką tie žaidimai sako apie tave? Ko iš jų išmoksti?"
+      "Pokalbio metu pažaiskite kokį nors paprastą žaidimą, pavyzdžiui, “vaskichi”, “nykščių žaidimą”, “kryžiukus nuliukus”, “akių karą, kur laimi ilgiau nesumirksėjus/ęs” ir pan."
     ]
   },
   {
     "name": "Miegas",
     "level1": [
-      "Kiek miego tau užtenka, kad gerai jaustumeisi dienos metu?",
-      "Kokie tavo miego įpročiai (kada eini miegoti, ar turi kokių ritualų prieš miegą, kas padeda užmigti ir t.t.)?",
-      "Kiek ilgiausiai esi nemiegojęs/us? Ką tada veikei?"
+      "Kokie tavo miego įpročiai: kada eini miegoti, ar turi kokių nors ritualų prieš miegą, kas tau padeda užmigti, kiek miego per naktį tau pakanka?",
+      "Kiek ilgiausiai esi nemiegojęs/us? Ką tada veikei?",
+      "Ar prisimeni savo sapnus? Jei taip, ar mėgsti juos paanalizuoti? Gal nori pasidalinti sapnais, kurie tau pasirodė svarbūs, įdomūs?"
     ],
     "level2": [
+      "Kokie tavo miego įpročiai: kada eini miegoti, ar turi kokių nors ritualų prieš miegą, kas tau padeda užmigti, kiek miego per naktį tau pakanka?",
       "Ar prisimeni savo sapnus? Jei taip, ar mėgsti juos paanalizuoti? Gal nori pasidalinti sapnais, kurie tau pasirodė svarbūs, įdomūs?",
-      "Jeigu galėtum pramiegoti kurį nors savo gyvenimo etapą, koks tai būtų etapas ir kodėl?",
-      "Ar aiškiniesi sapnų reikšmes? Kur ir kaip ieškai atsakymų apie sapnus, jų reikšmes?"
+      "Jeigu galėtum pramiegoti kurį nors savo gyvenimo etapą, koks tai būtų etapas ir kodėl?"
     ],
     "level3": [
       "Jeigu tai nesukelia nepatogumo, šio pokalbio metu būkite užsimerkę."
@@ -172,19 +172,19 @@
       "Jeigu jautiesi kontroliuojama/as, ar esi bandžiusi/ęs apie tai pasikalbėti, išsakyti kaip dėl to jautiesi?"
     ],
     "level3": [
-      "Pokalbio pabaigoje atsistokite viena/as priešais kitą maždaug 10 žingsnių atstumu. Tuomet eikite link viena/as kitos/o po vieną žingsnį artėdami iki kol jums bus patogu. Kai pajausti savo ribą, sustokit. Jeigu jausit, kad jūsų riba peržengta, galite žengti žigsnį atgal. Jeigu jausite, kad jokios ribos nesinori, galite tiesiog apsikabinti."
+      "Pokalbio pabaigoje atsistokite viena/as priešais kitą maždaug 10 žingsnių atstumu. Tuomet eikite link viena/as kitos/o po vieną žingsnį artėdami iki kol jums bus patogu. Kai pajusti savo ribą, sustokit. Jeigu jausit, kad jūsų riba peržengta, galite žengti žigsnį atgal. Jeigu jausite, kad jokios ribos nesinori, galite tiesiog apsikabinti."
     ]
   },
   {
     "name": "Dirbtinis intelektas",
     "level1": [
-      "Ką žinai apie dirbtinį intelektą?",
-      "Ar naudojiesi dirbtiniu intelektu?"
+      "Ką žinai ir manai apie dirbtinį intelektą?",
+      "Kurioje srityje dažniausiai naudojiesi ir/ar norėtum naudotis dirbtiniu intelektu?"
     ],
     "level2": [
-      "Kurioje srityje dažniausiai naudojiesi ir/ ar norėtum naudotis dirbtiniu intelektu?",
-      "Kokius jausmus tau kelia dirbtinis intelektas?",
-      "Kokioje srityje dirbtinis intelektas negalėtų būti panaudotas?"
+      "Ką žinai ir manai apie dirbtinį intelektą?",
+      "Kurioje srityje dažniausiai naudojiesi ir/ar norėtum naudotis dirbtiniu intelektu?",
+      "Ar manai, kad dirbtinį intelektą reikėtų kontroliuoti? Kodėl?"
     ],
     "level3": []
   },
@@ -192,9 +192,10 @@
     "name": "Socialinės medijos/influenceriai",
     "level1": [
       "Kurioje socialinių tinklų platformoje praleidi daugiausiai laiko? Kodėl būtent šioje? Ar keli savo turinį (nuotraukas, tekstus)? Pasidalink savo patirtimi.",
-      "Koks tau yra įdomiausias žmogus/nės, kurį/iuos seki?"
+      "Koks tau yra įdomiausias žmogus/nės, kurį/iuos seki? Kodėl?"
     ],
     "level2": [
+      "Koks tau yra įdomiausias žmogus/nės, kurį/iuos seki? Kodėl?",
       "Ar pati/s norėtum būti influencerė/is? Jei taip, kokį norėtum daryti pokytį/poveikį visuomenėje?",
       "Ar jautiesi priklausomas nuo socialinių medijų? Ar stengiesi kontroliuoti savo praleidžiamą laiką prie išmaniųjų įrenginių?",
       "Ar galėtum priimti iššūkį - diena be socialinių medijų? Kaip tokia tavo diena atrodytų?"
@@ -214,21 +215,18 @@
       "Ką tau reiškia būti gera/u drauge/u?",
       "Ar esu patyrus/ęs draugės/o išdavystę? Kaip tai tave paveikė?"
     ],
-    "level3": [
-      "Jeigu tai nesukelia nepatogumo, pokalbio pabaigoje nuoširdžiai pasižiūrėkite viena/s kitai/m į akis ir apsikabinkite. Pasakykite komplimentą ar padrąsinimą."
-    ]
+    "level3": ["Pasakyk komplimentą ar padrąsinimą savo pašnekovui."]
   },
   {
     "name": "Šeima",
     "level1": [
-      "Ar turi brolių, sesių?",
-      "Jei turi, kokie jūsų santykiai? Jei ne, kaip dėl to jautiesi?",
+      "Ar turi brolių, sesių? Jei turi, kokie jūsų santykiai? Jei ne, kaip dėl to jautiesi?",
+      "Koks tavo santykis su mama? Tėčiu? Seneliais?",
       "Ar savo namuose turite kokių nors šeimos tradicijų?"
     ],
     "level2": [
       "Kas tau labiausiai patinka tavo šeimoje? Kas nepatinka? Kodėl?",
-      "Ar norėtum ateityje sukurti šeimą? Kokią ją įsivaizduotum?",
-      "Jei nenorėtum, kaip save įsivaizduoji ateityje?"
+      "Ar norėtum ateityje sukurti šeimą? Kokią ją įsivaizduotum? Kokią/į įsivaizduoji save šeimoje?"
     ],
     "level3": [
       "Jeigu tai nesukelia didelio pasipriešinimo, išsiųskit kuriam nors savo šeimos nariui (mamai, tėčiui, sesei, broliui, globėjui, seneliams, artimam žmogui) žinutę su pozityvia žinute, pavyzdžiui, “džiaugiuosi, kad esi mano sesė/brolis”, “ačiū už pusryčius”, “gal nuveikiam šiandien ką nors drauge?”, “myliu tave” ir t.t. :)"
@@ -245,7 +243,7 @@
       "Ar manai, kad žmonės pakankamai skiria laiko poilsiui? Kaip pati/pats geriausiai pailsi?"
     ],
     "level3": [
-      "Pokalbio pabaigoje leiskitės į trumpą vaizduotės kelionę: sugrįžkite į tą vietą, kurioje jauteisi įkvėpta/as, saugi/us, atsipalaidavus/ęs. Prisimink pojūčius: oro temperatūrą, kvapus, garsus, skonius, kurie siejasi su ta vieta. Žinok, kad visada gali keliauti į savo gražiausius prisiminimus ir bent akimirkai patirti tą atostogų jausmą, kurio šiuo metu norėtum."
+      "Pokalbio pabaigoje leiskitės į trumpą vaizduotės kelionę: sugrįžk į tą vietą, kurioje jauteisi įkvėpta/as, saugi/us, atsipalaidavus/ęs. Prisimink pojūčius: oro temperatūrą, kvapus, garsus, skonius, kurie siejasi su ta vieta. Žinok, kad visada gali keliauti į savo gražiausius prisiminimus ir bent akimirkai patirti tą atostogų jausmą, kurio šiuo metu norėtum."
     ]
   },
   {
@@ -274,7 +272,7 @@
       "Ar turi kokį nors blogą įprotį, kurio niekaip nepavyksta atsikratyti? Ką dėl to bandei daryti?"
     ],
     "level3": [
-      "Sugalvoti kelis būdus/ patarimus kaip galima būtų ugdytis norima įprotį."
+      "Sugalvok kelis būdus/ patarimus kaip galima būtų ugdytis norima įprotį. "
     ]
   },
   {
@@ -286,10 +284,10 @@
     "level2": [
       "Įvardink vieną artimos, kitą tolimos perspektyvos tikslą?",
       "Ką norėtum būti nuveikus/ęs, pasiekus/ęs, kai tau bus 25/35/50 metų?",
-      "Ką norėtum pasiekti iki gyvenimo galo?"
+      "Ką norėtum pasiekti iki gyvenimo galo? Kodėl tau tai svarbu?"
     ],
     "level3": [
-      "Vizualizacijos užduotis. Įsivaizduoki savę pasiekusi norimus tikslus po 25 metų? Kaip tu atrodai? Kokia tavo aplinka?"
+      "Vizualizacijos užduotis. Įsivaizduoki savę pasiekusį/ę norimus tikslus po 25 metų? Kaip tu atrodai? Kokia tavo aplinka?"
     ]
   },
   {
@@ -303,23 +301,23 @@
       "Ar tau rūpi globalinio atšilimo problemos? Ar kažką dėl to darai? Kaip manai, ką šiuo klausimu reikėtų daryti valstybiniu/geopolitiniu lygmeniu?"
     ],
     "level3": [
-      "Parekomenduokite viena/as kitam po vietą kur nors gamtoje, kuri tau labai patinka."
+      "Pasidalinkit vienas/a su kitu/a vietomis gamtoje, kurios jums patinka."
     ]
   },
   {
     "name": "Stresas",
     "level1": [
-      "Kas tau kelia didžiausią įtampą?",
-      "Ar įtampa gali būti naudinga?",
-      "Ar dažnai patiri stresą?",
-      "Kas tau padeda sumažinti stresą/susitvarkyti su stresu?"
-    ],
-    "level2": [
-      "Kas tau kelia stresą šiomis dienomis? Kaip su tuo tvarkaisi?",
+      "Kas tau kelia didžiausią įtampą? Kaip manai, ar įtampa gali būti naudinga? Ar dažnai patiri stresą? Kaip manai kodėl?",
+      "Kas tau padeda sumažinti stresą/susitvarkyti su stresu?",
       "Ar kreiptumeisi pagalbos jei jaustum, kad nebesugebi susitvarkyti su stresu? Kur ieškotum tokios pagalbos ir kodėl?"
     ],
+    "level2": [
+      "Kas tau kelia didžiausią įtampą? Kaip manai, ar įtampa gali būti naudinga? Ar dažnai patiri stresą? Kaip manai kodėl?",
+      "Kas tau padeda sumažinti stresą/susitvarkyti su stresu?",
+      "Ar kreiptumeisi pagalbos jei jaustum, kad nebesugebi susitvarkyti su stresu? Kur ieškotum tokios pagalbos ir kodėl?s ir kodėl?"
+    ],
     "level3": [
-      "Pateikti pavyzdžių, kada įtampa ar stresas gali būti naudinga? Suvaidink situaciją, kada stresas veikia tave? Kaip tu jautiesi, ką darei?"
+      "Pasidalink su savo pašnekovu kokia nors technika, kuri tau padeda atsipalaiduoti, sumažinti stresą ar įtampą."
     ]
   },
   {
@@ -332,10 +330,11 @@
     "level2": [
       "Pabandyk pastebėti kaip tavo kūrybiškumas keitėsi su amžiumi (kai buvai vaikas, tuomet paauglytėje, dabar). Kaip manai nuo ko tai priklauso?",
       "Ar tau asmeniškai svarbus kūrybiškumas? Kodėl?",
-      "Kas yra kūrybiškiausias žmogus, kurį pažįsti? Ar/kuo tave įkvepia šis žmogus?"
+      "Kas yra kūrybiškiausias žmogus, kurį pažįsti? Ar/kuo tave įkvepia šis žmogus?",
+      "Ar esi ką nors sukūręs/us kuo didžiuojiesi?"
     ],
     "level3": [
-      "Pasistatyti kėdes taip, kad sėdėtumėt atsirėmę į viena/as kitos/o nugaras. Taip ir kalbėkitės. Kitas variantas: kalbėkitės atsitūpę."
+      "Paprašyk pašnekovo, kad pasakytų/užrašytų 3 bet kokius žodžius ir iš tų trijų žodžių sukurk trumpą eilėraštį."
     ]
   },
   {
@@ -350,7 +349,7 @@
       "Ar sutinki su teiginiu, kad “patys esam savo laimės kalviai” ir kodėl?"
     ],
     "level3": [
-      "Jeigu tai nesukelia nepatogumų, nupieškit viena/as kitai/m ant delno kažkokį simbolį, kuris jums asocijuojasi su laime."
+      "Jeigu tai nesukelia nepatogumų, nupieškit viena/as kitai/m ant delno/sąsiuvinio kažkokį simbolį, kuris jums asocijuojasi su laime."
     ]
   },
   {
@@ -377,7 +376,7 @@
       "Kaip manai ar daugiau tavo ateitis priklauso nuo tavęs ar nuo aplinkybių? Kodėl taip manai?"
     ],
     "level3": [
-      "Užsimerk ir nusikelk į savo praeitį (savo ankstyviausius prisiminimus) ir susitikęs/us ten save nuoširdžiai pasakyk sau-vaikui tai, ką galbūt būtum norėjęs/us tuo metu girdėti dažniau <i>(pavyzdžiui, \"tau pavyks!\", \"tu esi nuostabi/us\", \"myliu tave, kad ir kas nutiktų\", \"visada tikėk savimi\" ir t.t.)</i>"
+      "Užsimerk ir nusikelk į savo praeitį (savo ankstyviausius prisiminimus) ir susitikęs/us ten save nuoširdžiai pasakyk sau-vaikui tai, ką galbūt būtum norėjęs/us tuo metu girdėti dažniau, pavyzdžiui: “tau pavyks!”, \"tu esi nuostabi/us\", \"myliu tave, kad ir kas nutikt\", “visada tikėk savimi” ir t.t."
     ]
   },
   {
