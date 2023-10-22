@@ -5,7 +5,7 @@ export const MentorRules = () => {
 
     return (<p className="mx-[15%] my-6 text-white">
 
-        Sveiki. Šiam žaidimui jums reikės tuščios erdvės ir kėdžių bei išmaniųjų įrenginių (pvz., telefonų). Galite pasirinkti kiek laiko kalbėsis kiekviena pora.
+        Sveiki. <br />Šiam žaidimui jums reikės tuščios erdvės ir kėdžių bei išmaniųjų įrenginių (pvz., telefonų). Galite pasirinkti kiek laiko kalbėsis kiekviena pora.
         <br />
 
         <br />
