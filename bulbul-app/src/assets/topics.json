@@ -201,7 +201,7 @@
       "Ar galėtum priimti iššūkį - diena be socialinių medijų? Kaip tokia tavo diena atrodytų?"
     ],
     "level3": [
-      "Užduotis pokalbio metu: Pasekti viena/ass kitos/o anketas, jei to dar nedarote. Pasidaryti bendrą <i>selfi</i> pokalbio pabaigoje."
+      "Užduotis pokalbio metu: Pasekti viena/as kitos/o anketas, jei to dar nedarote. Pasidaryti bendrą <i>selfi</i> pokalbio pabaigoje."
     ]
   },
   {
@@ -416,7 +416,7 @@
     "level1": [
       "Ar daug laiko skiri savo išvaizdai (rūbams, šukuosenai, veido priežiūrai ir t.t.)?",
       "Ar tau svarbu naudoti naujausius/madingiausius <i>brendus</i> (išmaniosios technologijos, drabužiai, batai ir t.t.), o gal kaip tik nesureikšmini šių dalykų?",
-      "Jei turėtum 1000Eur, ką nusipirktum? O gal pasirinktum kažkam taupyti?"
+      "Jei turėtum 1000 eurų, ką nusipirktum? O gal pasirinktum kažkam taupyti?"
     ],
     "level2": [
       "Koks tavo santykis su savo kūnu? Jei jautiesi patogiai, pasidalink plačiau. Ar galėtum pasakyti, kad myli save ir tai kaip atrodai? Kodėl taip arba kodėl ne?",
@@ -552,21 +552,21 @@
       "Kokia yra svarbiausia pamoka, kurią žmonės gali išmokti iš istorijos?"
     ],
     "level3": [
-      "Papasakok kokią nors trumpą istoriją iš savo gyvenimo naudodamas trečią asmenį."
+      "Papasakok kokią nors trumpą istoriją iš savo gyvenimo naudodamas/a trečią asmenį."
     ]
   },
   {
     "name": "Geografija",
     "level1": [
       "Jeigu galėtum pasirinkti, kurioje šalyje gyventi, kokia šalis tai būtų ir kodėl?",
-      "Ar tai, kad gimei Lietuvoje laikai kaip prvalumą ar manai, kad galėjo ir labiau pasisekti? Kas tau patinka apie Lietuvą?"
+      "Ar tai, kad gimei Lietuvoje laikai kaip privalumą ar manai, kad galėjo ir labiau pasisekti? Kas tau patinka apie Lietuvą?"
     ],
     "level2": [
       "Jeigu galėtum pasirinkti, kurioje šalyje gyventi, kokia šalis tai būtų ir kodėl?",
-      "Ar tai, kad gimei Lietuvoje laikai kaip prvalumą ar manai, kad galėjo ir labiau pasisekti? Kas tau patinka apie Lietuvą?"
+      "Ar tai, kad gimei Lietuvoje laikai kaip privalumą ar manai, kad galėjo ir labiau pasisekti? Kas tau patinka apie Lietuvą?"
     ],
     "level3": [
-      "Jeigu turite laiko, atsidarykite google maps žemėlapį ir pasivaikščiokite su žmogeliuku po šalį į kurią norėtumėte nukeliauti ateityje (Funkcija dešiniame lango kampe: browse street view image)"
+      "Jeigu turite laiko, atsidarykite Google maps žemėlapį ir pasivaikščiokite su žmogeliuku po šalį į kurią norėtumėte nukeliauti ateityje (Funkcija dešiniame lango kampe: <i>browse street view image</i>)"
     ]
   },
   {
@@ -582,7 +582,7 @@
       "Jeigu būtum švietimo ministras/ė, ką pirmiausiai pakeistum? Kodėl?"
     ],
     "level3": [
-      "Kai galvoji apie mokytojo pavyzdį, koks/kokia mokytoja ateina į galvą? Pasidalink."
+      "Kai galvoji apie mokytojo pavyzdį, koks/kokia mokytojas/a ateina į galvą? Pasidalink."
     ]
   },
   {
@@ -595,11 +595,11 @@
     "name": "Asmeninės savybės",
     "level1": [
       "Pagalvok ir pasakyk 3 gerus dalykus apie save.",
-      "Pagalvok ir pasakyk 3 dalykus, kuriuos norėtm tobulinti savyje."
+      "Pagalvok ir pasakyk 3 dalykus, kuriuos norėtum tobulinti savyje."
     ],
     "level2": [
       "Pagalvok ir pasakyk 3 gerus dalykus apie save.",
-      "Pagalvok ir pasakyk 3 dalykus, kuriuos norėtm tobulinti savyje.",
+      "Pagalvok ir pasakyk 3 dalykus, kuriuos norėtum tobulinti savyje.",
       "Kaip manai, ar dalykai, kuriuos veiki gyvenime siejas su tavo stipriosiomis pusėmis ir pomėgiais? Jei ne, kaip manai, nuo ko galėtum pradėti?"
     ],
     "level3": ["Pagalvok ir užrašyk sau palinkėjimą."]
