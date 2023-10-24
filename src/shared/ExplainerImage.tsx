@@ -1,4 +1,4 @@
-import ratas from '../shared/img/Ratas.png'
+import ratas from './img/Ratas.png'
 
 export function ExplainerImage() {
     return (

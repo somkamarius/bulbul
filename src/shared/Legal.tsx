@@ -1,4 +1,4 @@
-import logo from '../shared/img/logo.png'
+import logo from './img/logo.png'
 
 export function Legal() {
     return (
